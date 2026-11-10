@@ -13,6 +13,8 @@ O DunenScope transforma um PC com Windows e um adaptador CAN em uma bancada de t
 
 ## O que o DunenScope faz
 
+- **Comissionamento** — uma máquina nova passo a passo, como no VESC: motor, controlador e bateria, calibração do pedal, máquina, gravação, zero do encoder, giro de teste de 5 s para o sentido, ajuste do PI.
+- **Ajustes em linguagem clara** — todo o controlador por categorias, nas unidades da máquina (segundos, %, km/h, L/min, m/min), com curvas do pedal que se arrastam com o mouse.
 - **Ligar e conectar** — o adaptador CAN, a taxa de bits e o endereço do controlador são encontrados sozinhos, e o modelo é reconhecido.
 - **Ajuste fácil** — algumas perguntas (bateria, rotação, condução): os ajustes são calculados e preparados na lista, com ajuda em cada parâmetro e verificação de coerência antes de gravar.
 - **Outros controladores** — para um modelo que o DunenScope ainda não conhece: escolher o protocolo, procurar os registradores que respondem, nomeá-los, acompanhá-los em gráfico e salvar uma ficha de modelo.
@@ -30,6 +32,7 @@ O DunenScope transforma um PC com Windows e um adaptador CAN em uma bancada de t
 ## Capturas de tela
 
 <table>
+<tr><td width="50%" align="center"><img src="docs/images/pt/setup_wizard.png" alt="Comissionamento: uma máquina nova passo a passo"><br><sub>Comissionamento: uma máquina nova passo a passo</sub></td><td width="50%" align="center"><img src="docs/images/pt/settings.png" alt="Ajustes em linguagem clara, nas unidades da máquina"><br><sub>Ajustes em linguagem clara, nas unidades da máquina</sub></td></tr>
 <tr><td width="50%" align="center"><img src="docs/images/pt/diagnostic.png" alt="Diagnóstico — o que limita a máquina"><br><sub>Diagnóstico — o que limita a máquina</sub></td><td width="50%" align="center"><img src="docs/images/pt/realtime.png" alt="Curvas em tempo real e assistente de ajuste do PI"><br><sub>Curvas em tempo real e assistente de ajuste do PI</sub></td></tr>
 <tr><td width="50%" align="center"><img src="docs/images/pt/parameters.png" alt="Parâmetros — comparar, gravar, exportar"><br><sub>Parâmetros — comparar, gravar, exportar</sub></td><td width="50%" align="center"><img src="docs/images/pt/licence.png" alt="Janela Licença"><br><sub>Janela Licença</sub></td></tr>
 </table>

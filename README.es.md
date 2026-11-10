@@ -13,6 +13,8 @@ DunenScope convierte un PC con Windows y un adaptador CAN en un banco de pruebas
 
 ## Qué hace DunenScope
 
+- **Puesta en marcha** — una máquina nueva paso a paso, como en VESC: motor, controlador y batería, calibración del pedal, máquina, escritura, cero del encoder, giro de prueba de 5 s para el sentido, ajuste del PI.
+- **Ajustes en lenguaje claro** — todo el controlador por categorías, en las unidades de la máquina (segundos, %, km/h, L/min, m/min), con curvas del pedal que se arrastran con el ratón.
 - **Enchufar y conectar** — el adaptador CAN, la velocidad y la dirección del controlador se encuentran solos, y el modelo se reconoce.
 - **Ajuste fácil** — unas pocas preguntas (batería, régimen, conducción): los ajustes se calculan y se preparan en la lista, con ayuda en cada parámetro y control de coherencia antes de escribir.
 - **Otros controladores** — para un modelo que DunenScope aún no conoce: elegir el protocolo, buscar los registros que responden, nombrarlos, graficarlos y guardar una ficha de modelo.
@@ -30,6 +32,7 @@ DunenScope convierte un PC con Windows y un adaptador CAN en un banco de pruebas
 ## Capturas de pantalla
 
 <table>
+<tr><td width="50%" align="center"><img src="docs/images/es/setup_wizard.png" alt="Puesta en marcha: una máquina nueva paso a paso"><br><sub>Puesta en marcha: una máquina nueva paso a paso</sub></td><td width="50%" align="center"><img src="docs/images/es/settings.png" alt="Ajustes en lenguaje claro, en las unidades de la máquina"><br><sub>Ajustes en lenguaje claro, en las unidades de la máquina</sub></td></tr>
 <tr><td width="50%" align="center"><img src="docs/images/es/diagnostic.png" alt="Diagnóstico — qué limita la máquina"><br><sub>Diagnóstico — qué limita la máquina</sub></td><td width="50%" align="center"><img src="docs/images/es/realtime.png" alt="Curvas en tiempo real y asistente de ajuste del PI"><br><sub>Curvas en tiempo real y asistente de ajuste del PI</sub></td></tr>
 <tr><td width="50%" align="center"><img src="docs/images/es/parameters.png" alt="Parámetros — comparar, escribir, exportar"><br><sub>Parámetros — comparar, escribir, exportar</sub></td><td width="50%" align="center"><img src="docs/images/es/licence.png" alt="Ventana Licencia"><br><sub>Ventana Licencia</sub></td></tr>
 </table>

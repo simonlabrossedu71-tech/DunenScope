@@ -13,6 +13,8 @@ DunenScope trasforma un PC Windows e un adattatore CAN in un banco di prova comp
 
 ## Cosa fa DunenScope
 
+- **Messa in servizio** — una nuova macchina passo passo, come su VESC: motore, controller e batteria, calibrazione del pedale, macchina, scrittura, zero dell'encoder, rotazione di prova di 5 s per il senso, regolazione del PI.
+- **Impostazioni in chiaro** — tutto il controller per categorie, nelle unità della macchina (secondi, %, km/h, L/min, m/min), con curve del pedale da trascinare con il mouse.
 - **Collega e connetti** — adattatore CAN, velocità e indirizzo del controller vengono trovati da soli, e il modello viene riconosciuto.
 - **Configurazione facile** — poche domande (batteria, regime, guida): le impostazioni vengono calcolate e preparate nell'elenco, con aiuto su ogni parametro e controllo di coerenza prima della scrittura.
 - **Altri controller** — per un modello che DunenScope non conosce ancora: scegliere il protocollo, cercare i registri che rispondono, nominarli, seguirli in grafico e salvare una scheda modello.
@@ -30,6 +32,7 @@ DunenScope trasforma un PC Windows e un adattatore CAN in un banco di prova comp
 ## Schermate
 
 <table>
+<tr><td width="50%" align="center"><img src="docs/images/it/setup_wizard.png" alt="Messa in servizio: una nuova macchina passo passo"><br><sub>Messa in servizio: una nuova macchina passo passo</sub></td><td width="50%" align="center"><img src="docs/images/it/settings.png" alt="Impostazioni in chiaro, nelle unità della macchina"><br><sub>Impostazioni in chiaro, nelle unità della macchina</sub></td></tr>
 <tr><td width="50%" align="center"><img src="docs/images/it/diagnostic.png" alt="Diagnosi — cosa limita la macchina"><br><sub>Diagnosi — cosa limita la macchina</sub></td><td width="50%" align="center"><img src="docs/images/it/realtime.png" alt="Curve in tempo reale e assistente di regolazione PI"><br><sub>Curve in tempo reale e assistente di regolazione PI</sub></td></tr>
 <tr><td width="50%" align="center"><img src="docs/images/it/parameters.png" alt="Parametri — confrontare, scrivere, esportare"><br><sub>Parametri — confrontare, scrivere, esportare</sub></td><td width="50%" align="center"><img src="docs/images/it/licence.png" alt="Finestra Licenza"><br><sub>Finestra Licenza</sub></td></tr>
 </table>

@@ -13,6 +13,8 @@ DunenScope macht aus einem Windows-PC und einem CAN-Adapter einen vollständigen
 
 ## Was DunenScope kann
 
+- **Inbetriebnahme** — eine neue Maschine Schritt für Schritt, wie bei VESC: Motor, Controller und Batterie, Pedalkalibrierung, Maschine, Schreiben, Geber-Nullpunkt, 5-s-Testdrehung für die Richtung, PI-Einstellung.
+- **Einstellungen im Klartext** — der ganze Controller nach Kategorien, in den Einheiten der Maschine (Sekunden, %, km/h, L/min, m/min), mit Pedalkurven, die man mit der Maus zieht.
 - **Anstecken und verbinden** — CAN-Adapter, Bitrate und Controller-Adresse werden automatisch gefunden, das Modell wird erkannt.
 - **Einfache Einstellung** — ein paar Fragen (Batterie, Drehzahl, Fahrgefühl): die Einstellungen werden berechnet und in der Liste vorbereitet, mit Hilfe zu jedem Parameter und Plausibilitätsprüfung vor dem Schreiben.
 - **Andere Controller** — für ein Modell, das DunenScope noch nicht kennt: Protokoll wählen, antwortende Register suchen, benennen, als Kurve anzeigen und ein Modellprofil speichern.
@@ -30,6 +32,7 @@ DunenScope macht aus einem Windows-PC und einem CAN-Adapter einen vollständigen
 ## Bildschirmfotos
 
 <table>
+<tr><td width="50%" align="center"><img src="docs/images/de/setup_wizard.png" alt="Inbetriebnahme: eine neue Maschine Schritt für Schritt"><br><sub>Inbetriebnahme: eine neue Maschine Schritt für Schritt</sub></td><td width="50%" align="center"><img src="docs/images/de/settings.png" alt="Einstellungen im Klartext, in den Einheiten der Maschine"><br><sub>Einstellungen im Klartext, in den Einheiten der Maschine</sub></td></tr>
 <tr><td width="50%" align="center"><img src="docs/images/de/diagnostic.png" alt="Diagnose — was die Maschine begrenzt"><br><sub>Diagnose — was die Maschine begrenzt</sub></td><td width="50%" align="center"><img src="docs/images/de/realtime.png" alt="Echtzeit-Verläufe und PI-Einstellassistent"><br><sub>Echtzeit-Verläufe und PI-Einstellassistent</sub></td></tr>
 <tr><td width="50%" align="center"><img src="docs/images/de/parameters.png" alt="Parameter — vergleichen, schreiben, exportieren"><br><sub>Parameter — vergleichen, schreiben, exportieren</sub></td><td width="50%" align="center"><img src="docs/images/de/licence.png" alt="Lizenzfenster"><br><sub>Lizenzfenster</sub></td></tr>
 </table>

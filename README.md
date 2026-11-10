@@ -13,6 +13,8 @@ DunenScope turns a Windows PC and a CAN adapter into a complete test bench for D
 
 ## What DunenScope does
 
+- **Setup wizard** — a new machine step by step, like VESC: motor, controller and battery, pedal calibration, machine, writing, encoder zero, a 5 s test rotation to check the direction, PI tuning.
+- **Settings in plain words** — the whole controller by category, in the machine's units (seconds, %, km/h, L/min, m/min), with pedal curves you drag with the mouse.
 - **Plug and connect** — the CAN adapter, bit rate and controller address are found automatically, and the model is recognised.
 - **Easy setup** — answer a few questions (battery, speed, driving feel): the settings are calculated and prepared in the list, with help on every parameter and a consistency check before writing.
 - **Other controllers** — for a model DunenScope does not know yet: choose the protocol, find the registers that answer, name them, chart them and save a model profile.
@@ -30,6 +32,7 @@ DunenScope turns a Windows PC and a CAN adapter into a complete test bench for D
 ## Screenshots
 
 <table>
+<tr><td width="50%" align="center"><img src="docs/images/en/setup_wizard.png" alt="Setup wizard: a new machine step by step"><br><sub>Setup wizard: a new machine step by step</sub></td><td width="50%" align="center"><img src="docs/images/en/settings.png" alt="Settings in plain words, in the machine's units"><br><sub>Settings in plain words, in the machine's units</sub></td></tr>
 <tr><td width="50%" align="center"><img src="docs/images/en/diagnostic.png" alt="Diagnostics — what limits the machine"><br><sub>Diagnostics — what limits the machine</sub></td><td width="50%" align="center"><img src="docs/images/en/realtime.png" alt="Real-time plots and PI tuning assistant"><br><sub>Real-time plots and PI tuning assistant</sub></td></tr>
 <tr><td width="50%" align="center"><img src="docs/images/en/parameters.png" alt="Parameters — compare, write, export"><br><sub>Parameters — compare, write, export</sub></td><td width="50%" align="center"><img src="docs/images/en/licence.png" alt="Licence window"><br><sub>Licence window</sub></td></tr>
 </table>

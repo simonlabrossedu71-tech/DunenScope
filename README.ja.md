@@ -13,6 +13,8 @@ DunenScope は、Windows PC と CAN アダプターを Dunen / ELYX コントロ
 
 ## DunenScope でできること
 
+- **セットアップウィザード** — VESC のように新しい機械をステップごとに設定：モーター、コントローラーとバッテリー、ペダルのキャリブレーション、機械、書き込み、エンコーダーのゼロ点、方向を確認する 5 秒の試運転、PI 調整。
+- **わかりやすい設定** — コントローラーのすべての設定をカテゴリー別に、機械の単位（秒、%、km/h、L/min、m/min）で表示。ペダルのカーブはマウスでドラッグして変更。
 - **つなぐだけで接続** — CAN アダプター、通信速度、コントローラーのアドレスを自動で検出し、型式を認識します。
 - **かんたん設定** — いくつかの質問（バッテリー、回転数、走行フィーリング）に答えるだけで設定値を計算して一覧に準備します。各パラメーターの説明と書き込み前の整合性チェック付き。
 - **その他のコントローラー** — DunenScope がまだ対応していない型式でも：プロトコルを選び、応答するレジスターを検索し、名前を付け、グラフで追跡し、型式プロファイルを保存できます。
@@ -30,6 +32,7 @@ DunenScope は、Windows PC と CAN アダプターを Dunen / ELYX コントロ
 ## スクリーンショット
 
 <table>
+<tr><td width="50%" align="center"><img src="docs/images/ja/setup_wizard.png" alt="セットアップウィザード：新しい機械をステップごとに設定"><br><sub>セットアップウィザード：新しい機械をステップごとに設定</sub></td><td width="50%" align="center"><img src="docs/images/ja/settings.png" alt="わかりやすい設定（機械の単位で表示）"><br><sub>わかりやすい設定（機械の単位で表示）</sub></td></tr>
 <tr><td width="50%" align="center"><img src="docs/images/ja/diagnostic.png" alt="診断——機械を制限しているもの"><br><sub>診断——機械を制限しているもの</sub></td><td width="50%" align="center"><img src="docs/images/ja/realtime.png" alt="リアルタイムグラフと PI 調整アシスタント"><br><sub>リアルタイムグラフと PI 調整アシスタント</sub></td></tr>
 <tr><td width="50%" align="center"><img src="docs/images/ja/parameters.png" alt="パラメーター——比較・書き込み・エクスポート"><br><sub>パラメーター——比較・書き込み・エクスポート</sub></td><td width="50%" align="center"><img src="docs/images/ja/licence.png" alt="ライセンス画面"><br><sub>ライセンス画面</sub></td></tr>
 </table>

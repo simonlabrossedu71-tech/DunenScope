@@ -13,23 +13,26 @@ DunenScope transforme un PC Windows et un adaptateur CAN en banc de test complet
 
 ## Ce que fait DunenScope
 
+- **Mise en route** — une nouvelle machine étape par étape, comme sur VESC : moteur, variateur et batterie, calibrage de la pédale, machine, écriture, zéro du codeur, rotation d'essai de 5 s pour le sens, réglage du PI.
+- **Réglages en clair** — tout le contrôleur par catégories, dans les unités de la machine (secondes, %, km/h, L/min, m/min), avec des courbes de pédale à glisser à la souris.
 - **Branchez, connectez** — l'adaptateur CAN, le débit et l'adresse du contrôleur sont trouvés tout seuls, et le modèle est reconnu.
 - **Réglage facile** — quelques questions (batterie, régime, conduite) : les réglages sont calculés et préparés dans la liste, avec une aide sur chaque paramètre et un contrôle de cohérence avant écriture.
 - **Autres contrôleurs** — pour un modèle que DunenScope ne connaît pas encore : choisir le protocole, trouver les registres qui répondent, les nommer, les suivre en courbe et enregistrer une fiche de modèle.
 - **Écrivez-nous depuis l'appli** — le bouton Aide envoie votre problème, idée ou question directement à l'éditeur ; les rapports d'erreur ne partent qu'avec votre accord.
-- **Tableau de bord en direct** — régime, couple, tension et courant batterie, levier, puissance, températures, état et défauts sur un seul écran ; débit de pompe ou vitesse du véhicule selon votre profil de machine.
+- **Tableau de bord en direct** — régime, couple, tension et courant batterie, pédale, puissance, températures, état et défauts sur un seul écran ; débit de pompe ou vitesse du véhicule selon votre profil de machine.
 - **« Pourquoi ça plafonne ? »** — montre quelle limite agit en ce moment (couple, courant batterie, régime, tension) et depuis combien de temps ; résistance interne et marges de la batterie ; contrôle du câblage de chaque entrée ; temps restant avant réduction thermique ; analyse du dernier défaut.
 - **Courbes en temps réel** — six graphes synchronisés et une courbe libre de 4 variables au choix, enregistrement CSV.
 - **Les 446 paramètres** — mêmes numéros de ligne que DunenConfiger, recherche, comparaison avec un fichier, export xlsx réimportable dans DunenConfiger, CSV.
 - **Écriture sécurisée** — sauvegarde complète automatique avant chaque écriture, relecture, paramètres dangereux bloqués, moteur à l'arrêt obligatoire, enregistrement en mémoire permanente comme DunenConfiger.
 - **Réglage du PI de vitesse** — mesure sur la machine, réglage manuel par échelons avec conseils, et réglage automatique.
 - **Essais moteur** — régime ou couple imposé, auto-apprentissage de l'angle du codeur, boucle de courant ; STOP / Échap et arrêt automatique.
-- **Outils d'atelier** — dossier support en un clic (.zip), assistant de calibration du levier, contrôle de fin de ligne avec rapport et journal de production.
+- **Outils d'atelier** — dossier support en un clic (.zip), assistant de calibration de la pédale, contrôle de fin de ligne avec rapport et journal de production.
 - **Pensé pour le terrain** — 10 langues, adaptateurs PEAK PCAN-USB, Kvaser, IXXAT, Vector et SLCAN, profils d'application, et un mode simulation pour tout essayer sans matériel.
 
 ## Captures d'écran
 
 <table>
+<tr><td width="50%" align="center"><img src="docs/images/fr/setup_wizard.png" alt="Mise en route : une nouvelle machine étape par étape"><br><sub>Mise en route : une nouvelle machine étape par étape</sub></td><td width="50%" align="center"><img src="docs/images/fr/settings.png" alt="Réglages en clair, dans les unités de la machine"><br><sub>Réglages en clair, dans les unités de la machine</sub></td></tr>
 <tr><td width="50%" align="center"><img src="docs/images/fr/diagnostic.png" alt="Diagnostic — ce qui limite la machine"><br><sub>Diagnostic — ce qui limite la machine</sub></td><td width="50%" align="center"><img src="docs/images/fr/realtime.png" alt="Courbes en temps réel et aide au réglage du PI"><br><sub>Courbes en temps réel et aide au réglage du PI</sub></td></tr>
 <tr><td width="50%" align="center"><img src="docs/images/fr/parameters.png" alt="Paramètres — comparer, écrire, exporter"><br><sub>Paramètres — comparer, écrire, exporter</sub></td><td width="50%" align="center"><img src="docs/images/fr/licence.png" alt="Fenêtre Licence"><br><sub>Fenêtre Licence</sub></td></tr>
 </table>

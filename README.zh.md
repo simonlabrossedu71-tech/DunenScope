@@ -13,6 +13,8 @@ DunenScope 让一台 Windows 电脑和一个 CAN 适配器成为 Dunen / ELYX �
 
 ## DunenScope 的功能
 
+- **调试向导** — 像 VESC 一样逐步配置新整机：电机、控制器与电池、踏板标定、整机、写入、编码器零位、5 秒试转确认方向、PI 整定。
+- **通俗易懂的设置** — 按类别显示控制器全部设置，使用整机单位（秒、%、km/h、L/min、m/min），踏板曲线可用鼠标拖动修改。
 - **即插即连** — 自动找到 CAN 适配器、波特率和控制器地址，并识别控制器型号。
 - **快速设置** — 回答几个问题（电池、转速、驾驶感受），自动计算参数并在列表中准备好；每个参数都有说明，写入前进行一致性检查。
 - **其他控制器** — 对于 DunenScope 尚不支持的型号：选择协议，查找有响应的寄存器，为其命名、绘制曲线并保存型号档案。
@@ -30,6 +32,7 @@ DunenScope 让一台 Windows 电脑和一个 CAN 适配器成为 Dunen / ELYX �
 ## 界面截图
 
 <table>
+<tr><td width="50%" align="center"><img src="docs/images/zh/setup_wizard.png" alt="调试向导：逐步配置新整机"><br><sub>调试向导：逐步配置新整机</sub></td><td width="50%" align="center"><img src="docs/images/zh/settings.png" alt="通俗易懂的设置，使用整机单位"><br><sub>通俗易懂的设置，使用整机单位</sub></td></tr>
 <tr><td width="50%" align="center"><img src="docs/images/zh/diagnostic.png" alt="诊断——限制设备的原因"><br><sub>诊断——限制设备的原因</sub></td><td width="50%" align="center"><img src="docs/images/zh/realtime.png" alt="实时曲线与 PI 整定助手"><br><sub>实时曲线与 PI 整定助手</sub></td></tr>
 <tr><td width="50%" align="center"><img src="docs/images/zh/parameters.png" alt="参数——对比、写入、导出"><br><sub>参数——对比、写入、导出</sub></td><td width="50%" align="center"><img src="docs/images/zh/licence.png" alt="“许可”窗口"><br><sub>“许可”窗口</sub></td></tr>
 </table>

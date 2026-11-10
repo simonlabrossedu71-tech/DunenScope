@@ -13,6 +13,8 @@ DunenScope는 Windows PC와 CAN 어댑터를 Dunen / ELYX 컨트롤러를 위한
 
 ## DunenScope로 할 수 있는 일
 
+- **설정 마법사** — VESC처럼 새 기계를 단계별로 설정: 모터, 컨트롤러와 배터리, 페달 보정, 기계, 쓰기, 엔코더 영점, 방향 확인용 5초 시험 회전, PI 튜닝.
+- **알기 쉬운 설정** — 컨트롤러 전체를 범주별로, 기계 단위(초, %, km/h, L/min, m/min)로 표시하며 페달 곡선을 마우스로 끌어서 수정.
 - **연결만 하면 끝** — CAN 어댑터, 통신 속도, 컨트롤러 주소를 자동으로 찾고 모델을 인식합니다.
 - **간편 설정** — 몇 가지 질문(배터리, 회전수, 주행 느낌)에 답하면 설정값을 계산해 목록에 준비합니다. 모든 파라미터 도움말과 쓰기 전 일관성 검사 포함.
 - **기타 컨트롤러** — DunenScope가 아직 모르는 모델도: 프로토콜을 선택하고, 응답하는 레지스터를 찾아 이름을 붙이고, 그래프로 보고, 모델 프로파일을 저장합니다.
@@ -30,6 +32,7 @@ DunenScope는 Windows PC와 CAN 어댑터를 Dunen / ELYX 컨트롤러를 위한
 ## 스크린샷
 
 <table>
+<tr><td width="50%" align="center"><img src="docs/images/ko/setup_wizard.png" alt="설정 마법사: 새 기계를 단계별로 설정"><br><sub>설정 마법사: 새 기계를 단계별로 설정</sub></td><td width="50%" align="center"><img src="docs/images/ko/settings.png" alt="알기 쉬운 설정, 기계 단위로 표시"><br><sub>알기 쉬운 설정, 기계 단위로 표시</sub></td></tr>
 <tr><td width="50%" align="center"><img src="docs/images/ko/diagnostic.png" alt="진단——기계를 제한하는 요인"><br><sub>진단——기계를 제한하는 요인</sub></td><td width="50%" align="center"><img src="docs/images/ko/realtime.png" alt="실시간 그래프와 PI 튜닝 도우미"><br><sub>실시간 그래프와 PI 튜닝 도우미</sub></td></tr>
 <tr><td width="50%" align="center"><img src="docs/images/ko/parameters.png" alt="파라미터——비교, 쓰기, 내보내기"><br><sub>파라미터——비교, 쓰기, 내보내기</sub></td><td width="50%" align="center"><img src="docs/images/ko/licence.png" alt="라이선스 창"><br><sub>라이선스 창</sub></td></tr>
 </table>
