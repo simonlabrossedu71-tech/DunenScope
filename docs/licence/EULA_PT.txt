@@ -1,0 +1,38 @@
+﻿CONTRATO DE LICENÇA DE USUÁRIO FINAL — DunenScope
+
+Leia este contrato antes de instalar o software. Ao instalá-lo, você o aceita.
+
+1. Licença
+O editor do DunenScope concede a você um direito de uso do software não exclusivo e intransferível.
+Sem licença, o DunenScope funciona no modo descoberta (leitura, diagnóstico, simulação). A versão completa
+é concedida conforme a licença adquirida (vitalícia ou assinatura), para um único PC por chave.
+
+2. Proibições
+É proibido copiar o software além da licença adquirida, compartilhar uma chave, alugá-lo, revendê-lo,
+descompilá-lo, desmontá-lo, modificá-lo ou contornar suas medidas de proteção.
+
+3. Segurança das máquinas
+O DunenScope pode alterar os ajustes de um controlador de motor e fazer um motor girar. O usuário é o único
+responsável pelos ajustes gravados e pelos testes realizados: máquina em condição segura, pessoal
+qualificado, cumprimento das normas de segurança aplicáveis. Uma cópia dos ajustes é salva antes de cada
+gravação; guarde-a.
+
+4. Garantia e responsabilidade
+O software é fornecido "no estado em que se encontra", sem garantia de adequação a um uso específico. Nos
+limites permitidos pela lei, a responsabilidade do editor limita-se ao valor pago pela licença.
+
+5. Serviços online e dados
+Para ativar e verificar uma licença comprada, o DunenScope envia ao serviço de licenças a chave, um código
+anônimo do PC e o nome do PC. Para oferecer atualizações, consulta o servidor de downloads. Nenhum outro dado
+é transmitido. Os arquivos criados (cópias, registros, gravações) permanecem no seu computador.
+
+6. Atualizações
+As atualizações são oferecidas aos usuários da versão completa. São assinadas pelo editor e só são instaladas
+com o seu consentimento.
+
+7. Componentes de terceiros
+O DunenScope utiliza componentes livres (Qt / PySide6, pyqtgraph, python-can, openpyxl, numpy, pyserial)
+sob suas próprias licenças: consulte o arquivo THIRD_PARTY_LICENSES.txt instalado com o software.
+
+8. Lei aplicável
+Este contrato é regido pela lei francesa.

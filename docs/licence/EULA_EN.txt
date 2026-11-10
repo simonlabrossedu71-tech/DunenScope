@@ -1,0 +1,37 @@
+﻿END USER LICENCE AGREEMENT — DunenScope
+
+Please read this agreement before installing the software. By installing it, you accept it.
+
+1. Licence
+The publisher of DunenScope grants you a non-exclusive, non-transferable right to use the software.
+Without a licence, DunenScope runs in discovery mode (reading, diagnostics, simulation). The full version
+is granted according to the licence purchased (lifetime or subscription), for a single PC per key.
+
+2. Restrictions
+You may not copy the software beyond the licence purchased, share a key, rent it, resell it, decompile,
+disassemble or modify it, or circumvent its protection measures.
+
+3. Machine safety
+DunenScope can change the settings of a motor controller and run a motor. The user is solely responsible
+for the settings written and the tests carried out: machine made safe, qualified staff, compliance with the
+applicable safety rules. A backup of the settings is made before every write; keep it.
+
+4. Warranty and liability
+The software is provided "as is", without any warranty of fitness for a particular purpose. To the extent
+permitted by law, the publisher's liability is limited to the amount paid for the licence.
+
+5. Online services and data
+To activate and check a purchased licence, DunenScope sends the key, an anonymous PC code and the PC name
+to the licence service. To offer updates, it queries the download server. No other data is transmitted.
+Files created (backups, logs, recordings) stay on your computer.
+
+6. Updates
+Updates are offered to users of the full version. They are signed by the publisher and are only installed
+with your consent.
+
+7. Third-party components
+DunenScope uses open-source components (Qt / PySide6, pyqtgraph, python-can, openpyxl, numpy, pyserial)
+under their own licences: see THIRD_PARTY_LICENSES.txt installed with the software.
+
+8. Governing law
+This agreement is governed by French law.

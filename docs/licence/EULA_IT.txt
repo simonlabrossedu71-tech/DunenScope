@@ -1,0 +1,38 @@
+﻿CONTRATTO DI LICENZA PER L'UTENTE FINALE — DunenScope
+
+Leggere il presente contratto prima di installare il software. Installandolo, lo si accetta.
+
+1. Licenza
+L'editore di DunenScope concede un diritto d'uso del software non esclusivo e non cedibile.
+Senza licenza, DunenScope funziona in modalità scoperta (lettura, diagnosi, simulazione). La versione
+completa è concessa secondo la licenza acquistata (a vita o in abbonamento), per un solo PC per chiave.
+
+2. Divieti
+È vietato copiare il software oltre la licenza acquistata, condividere una chiave, noleggiarlo, rivenderlo,
+decompilarlo, disassemblarlo, modificarlo o aggirarne le misure di protezione.
+
+3. Sicurezza delle macchine
+DunenScope può modificare le impostazioni di un controllore motore e far girare un motore. L'utente è l'unico
+responsabile delle impostazioni scritte e delle prove eseguite: macchina in sicurezza, personale qualificato,
+rispetto delle norme di sicurezza applicabili. Prima di ogni scrittura viene salvata una copia delle
+impostazioni; conservatela.
+
+4. Garanzia e responsabilità
+Il software è fornito "così com'è", senza garanzia di idoneità a un uso particolare. Nei limiti consentiti
+dalla legge, la responsabilità dell'editore è limitata all'importo pagato per la licenza.
+
+5. Servizi online e dati
+Per attivare e verificare una licenza acquistata, DunenScope invia al servizio licenze la chiave, un codice
+anonimo del PC e il nome del PC. Per proporre gli aggiornamenti, interroga il server di download. Nessun altro
+dato viene trasmesso. I file creati (copie, registri, registrazioni) restano sul vostro computer.
+
+6. Aggiornamenti
+Gli aggiornamenti sono proposti agli utenti della versione completa. Sono firmati dall'editore e vengono
+installati solo con il vostro consenso.
+
+7. Componenti di terze parti
+DunenScope utilizza componenti liberi (Qt / PySide6, pyqtgraph, python-can, openpyxl, numpy, pyserial)
+con le rispettive licenze: vedere il file THIRD_PARTY_LICENSES.txt installato con il software.
+
+8. Legge applicabile
+Il presente contratto è regolato dalla legge francese.

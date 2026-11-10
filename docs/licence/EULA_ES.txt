@@ -1,0 +1,39 @@
+﻿CONTRATO DE LICENCIA DE USUARIO FINAL — DunenScope
+
+Lea este contrato antes de instalar el software. Al instalarlo, usted lo acepta.
+
+1. Licencia
+El editor de DunenScope le concede un derecho de uso no exclusivo e intransferible del software.
+Sin licencia, DunenScope funciona en modo descubrimiento (lectura, diagnóstico, simulación). La versión
+completa se concede según la licencia adquirida (compra de por vida o suscripción), para un solo PC por clave.
+
+2. Prohibiciones
+Queda prohibido copiar el software más allá de la licencia adquirida, compartir una clave, alquilarlo,
+revenderlo, descompilarlo, desensamblarlo, modificarlo o eludir sus medidas de protección.
+
+3. Seguridad de las máquinas
+DunenScope puede modificar los ajustes de un controlador de motor y hacer girar un motor. El usuario es el
+único responsable de los ajustes que escribe y de los ensayos que realiza: máquina en condiciones seguras,
+personal cualificado y cumplimiento de las normas de seguridad aplicables. Antes de cada escritura se guarda
+una copia de los ajustes; consérvela.
+
+4. Garantía y responsabilidad
+El software se suministra "tal cual", sin garantía de idoneidad para un uso particular. En la medida
+permitida por la ley, la responsabilidad del editor se limita al importe pagado por la licencia.
+
+5. Servicios en línea y datos
+Para activar y verificar una licencia comprada, DunenScope envía al servicio de licencias la clave, un
+código anónimo del PC y el nombre del PC. Para ofrecer actualizaciones, consulta el servidor de descargas.
+No se transmite ningún otro dato. Los archivos creados (copias, registros, grabaciones) permanecen en su
+ordenador.
+
+6. Actualizaciones
+Las actualizaciones se ofrecen a los usuarios de la versión completa. Están firmadas por el editor y solo se
+instalan con su consentimiento.
+
+7. Componentes de terceros
+DunenScope utiliza componentes libres (Qt / PySide6, pyqtgraph, python-can, openpyxl, numpy, pyserial)
+bajo sus propias licencias: consulte el archivo THIRD_PARTY_LICENSES.txt instalado con el software.
+
+8. Ley aplicable
+El presente contrato se rige por la ley francesa.

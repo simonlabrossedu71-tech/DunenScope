@@ -1,0 +1,40 @@
+﻿ENDBENUTZER-LIZENZVERTRAG — DunenScope
+
+Bitte lesen Sie diesen Vertrag vor der Installation der Software. Mit der Installation stimmen Sie ihm zu.
+
+1. Lizenz
+Der Herausgeber von DunenScope gewährt Ihnen ein nicht ausschließliches, nicht übertragbares Recht zur
+Nutzung der Software. Ohne Lizenz läuft DunenScope im Demomodus (Lesen, Diagnose, Simulation). Die
+Vollversion wird gemäß der erworbenen Lizenz (Dauerlizenz oder Abonnement) für einen einzigen PC pro
+Schlüssel gewährt.
+
+2. Verbote
+Es ist untersagt, die Software über die erworbene Lizenz hinaus zu kopieren, einen Schlüssel weiterzugeben,
+sie zu vermieten, weiterzuverkaufen, zu dekompilieren, zu disassemblieren, zu verändern oder ihre
+Schutzmaßnahmen zu umgehen.
+
+3. Maschinensicherheit
+DunenScope kann die Einstellungen eines Motorcontrollers ändern und einen Motor drehen lassen. Der Benutzer
+ist allein verantwortlich für die geschriebenen Einstellungen und die durchgeführten Versuche: Maschine in
+sicherem Zustand, qualifiziertes Personal, Einhaltung der geltenden Sicherheitsvorschriften. Vor jedem
+Schreibvorgang wird eine Sicherung der Einstellungen erstellt; bewahren Sie sie auf.
+
+4. Gewährleistung und Haftung
+Die Software wird „wie besehen" ohne Gewähr für die Eignung zu einem bestimmten Zweck geliefert. Soweit
+gesetzlich zulässig, ist die Haftung des Herausgebers auf den für die Lizenz gezahlten Betrag begrenzt.
+
+5. Online-Dienste und Daten
+Zur Aktivierung und Prüfung einer gekauften Lizenz sendet DunenScope den Schlüssel, einen anonymen PC-Code
+und den PC-Namen an den Lizenzdienst. Für Updates fragt es den Download-Server ab. Es werden keine weiteren
+Daten übertragen. Erstellte Dateien (Sicherungen, Protokolle, Aufzeichnungen) bleiben auf Ihrem Computer.
+
+6. Updates
+Updates werden den Benutzern der Vollversion angeboten. Sie sind vom Herausgeber signiert und werden nur mit
+Ihrer Zustimmung installiert.
+
+7. Komponenten Dritter
+DunenScope verwendet freie Komponenten (Qt / PySide6, pyqtgraph, python-can, openpyxl, numpy, pyserial)
+unter deren eigenen Lizenzen: siehe die mit der Software installierte Datei THIRD_PARTY_LICENSES.txt.
+
+8. Anwendbares Recht
+Dieser Vertrag unterliegt französischem Recht.

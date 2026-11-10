@@ -1,0 +1,39 @@
+﻿CONTRAT DE LICENCE UTILISATEUR — DunenScope
+
+Veuillez lire ce contrat avant d'installer le logiciel. En l'installant, vous l'acceptez.
+
+1. Licence
+L'éditeur de DunenScope vous accorde un droit d'utilisation non exclusif et non cessible du logiciel.
+Sans licence, DunenScope fonctionne en mode découverte (lecture, diagnostic, simulation). La version complète
+est accordée selon la licence acquise (achat à vie ou abonnement), pour un seul PC par clé.
+
+2. Interdictions
+Il est interdit de copier le logiciel au-delà de la licence acquise, de partager une clé, de le louer, de le
+revendre, de le décompiler, de le désassembler, de le modifier ou de contourner ses mesures de protection.
+
+3. Sécurité des machines
+DunenScope peut modifier les réglages d'un contrôleur moteur et faire tourner un moteur. L'utilisateur est
+seul responsable des réglages qu'il écrit et des essais qu'il réalise : machine en sécurité, personnel
+qualifié, respect des règles de sécurité applicables. Une sauvegarde des réglages est faite avant chaque
+écriture ; conservez-la.
+
+4. Garantie et responsabilité
+Le logiciel est fourni « en l'état », sans garantie d'adéquation à un usage particulier. Dans les limites
+permises par la loi, la responsabilité de l'éditeur est limitée au montant payé pour la licence.
+
+5. Services en ligne et données
+Pour activer et vérifier une licence achetée, DunenScope envoie au service de licence la clé, un code
+anonyme du PC et le nom du PC. Pour proposer les mises à jour, il interroge le serveur de téléchargement.
+Aucune autre donnée n'est transmise. Les fichiers créés (sauvegardes, journaux, enregistrements) restent
+sur votre ordinateur.
+
+6. Mises à jour
+Les mises à jour sont proposées aux utilisateurs de la version complète. Elles sont signées par l'éditeur
+et ne s'installent qu'avec votre accord.
+
+7. Composants tiers
+DunenScope utilise des composants libres (Qt / PySide6, pyqtgraph, python-can, openpyxl, numpy, pyserial)
+sous leurs propres licences : voir le fichier THIRD_PARTY_LICENSES.txt installé avec le logiciel.
+
+8. Droit applicable
+Le présent contrat est soumis au droit français.
