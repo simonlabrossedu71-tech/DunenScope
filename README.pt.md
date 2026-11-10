@@ -13,6 +13,10 @@ O DunenScope transforma um PC com Windows e um adaptador CAN em uma bancada de t
 
 ## O que o DunenScope faz
 
+- **Ligar e conectar** — o adaptador CAN, a taxa de bits e o endereço do controlador são encontrados sozinhos, e o modelo é reconhecido.
+- **Ajuste fácil** — algumas perguntas (bateria, rotação, condução): os ajustes são calculados e preparados na lista, com ajuda em cada parâmetro e verificação de coerência antes de gravar.
+- **Outros controladores** — para um modelo que o DunenScope ainda não conhece: escolher o protocolo, procurar os registradores que respondem, nomeá-los, acompanhá-los em gráfico e salvar uma ficha de modelo.
+- **Fale conosco pelo aplicativo** — o botão Ajuda envia seu problema, ideia ou pergunta diretamente ao editor; relatórios de erro só são enviados com sua autorização.
 - **Painel ao vivo** — rotação, torque, tensão e corrente da bateria, acelerador, potência, temperaturas, estado e falhas em uma só tela; vazão da bomba ou velocidade do veículo conforme o perfil da máquina.
 - **«Por que está limitado?»** — mostra qual limite está atuando agora (torque, corrente da bateria, rotação, tensão) e há quanto tempo; resistência interna e margens da bateria; verificação da fiação de cada entrada; tempo restante até a redução térmica; análise da última falha.
 - **Curvas em tempo real** — seis gráficos sincronizados e um gráfico livre com 4 variáveis à escolha, gravação em CSV.
@@ -56,7 +60,7 @@ A chave chega por e-mail: cole-a no DunenScope → **Licença** → **Ativar**.
 1. Baixe o **DunenScope_Setup** em [Releases](https://github.com/simonlabrossedu71-tech/DunenScope/releases/latest) e execute-o. Se o Windows mostrar «O Windows protegeu o computador», clique em *Mais informações* → *Executar assim mesmo*.
 2. Escolha o idioma. O instalador oferece o driver PEAK se ele estiver faltando.
 3. Conecte o adaptador CAN ao controlador e ligue a chave.
-4. Escolha o adaptador, 250 kbit/s, nó 1 → **Conectar**. Ainda sem hardware? Escolha **Simulação**.
+4. Clique em **Conectar**: o DunenScope encontra sozinho o adaptador, a taxa e o nó. Ainda sem hardware? Escolha **Simulação**.
 5. Versão completa: botão **Licença** → cole sua chave → **Ativar**.
 
 ## Requisitos

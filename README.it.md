@@ -13,6 +13,10 @@ DunenScope trasforma un PC Windows e un adattatore CAN in un banco di prova comp
 
 ## Cosa fa DunenScope
 
+- **Collega e connetti** — adattatore CAN, velocità e indirizzo del controller vengono trovati da soli, e il modello viene riconosciuto.
+- **Configurazione facile** — poche domande (batteria, regime, guida): le impostazioni vengono calcolate e preparate nell'elenco, con aiuto su ogni parametro e controllo di coerenza prima della scrittura.
+- **Altri controller** — per un modello che DunenScope non conosce ancora: scegliere il protocollo, cercare i registri che rispondono, nominarli, seguirli in grafico e salvare una scheda modello.
+- **Scriveteci dall'app** — il pulsante Aiuto invia il vostro problema, idea o domanda direttamente all'editore; i rapporti di errore partono solo con il vostro consenso.
 - **Cruscotto in tempo reale** — regime, coppia, tensione e corrente batteria, acceleratore, potenza, temperature, stato e guasti in un'unica schermata; portata della pompa o velocità del veicolo secondo il profilo macchina.
 - **«Perché è limitato?»** — mostra quale limite agisce in questo momento (coppia, corrente batteria, regime, tensione) e da quanto tempo; resistenza interna e margini della batteria; verifica del cablaggio di ogni ingresso; tempo restante prima della riduzione termica; analisi dell'ultimo guasto.
 - **Curve in tempo reale** — sei grafici sincronizzati più un grafico libero con 4 variabili a scelta, registrazione CSV.
@@ -56,7 +60,7 @@ La chiave arriva per e-mail: incollala in DunenScope → **Licenza** → **Attiv
 1. Scaricate **DunenScope_Setup** da [Releases](https://github.com/simonlabrossedu71-tech/DunenScope/releases/latest) e avviatelo. Se Windows mostra «PC protetto da Windows», fate clic su *Ulteriori informazioni* → *Esegui comunque*.
 2. Scegliete la lingua. Il programma di installazione propone il driver PEAK se manca.
 3. Collegate l'adattatore CAN al controller e inserite la chiave.
-4. Scegliete l'adattatore, 250 kbit/s, nodo 1 → **Connetti**. Ancora senza hardware? Scegliete **Simulazione**.
+4. Fare clic su **Connetti**: DunenScope trova da solo adattatore, velocità e nodo. Ancora senza hardware? Scegliere **Simulazione**.
 5. Versione completa: pulsante **Licenza** → incollate la chiave → **Attiva**.
 
 ## Requisiti

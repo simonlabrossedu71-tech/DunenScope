@@ -13,6 +13,10 @@ DunenScope transforme un PC Windows et un adaptateur CAN en banc de test complet
 
 ## Ce que fait DunenScope
 
+- **Branchez, connectez** — l'adaptateur CAN, le débit et l'adresse du contrôleur sont trouvés tout seuls, et le modèle est reconnu.
+- **Réglage facile** — quelques questions (batterie, régime, conduite) : les réglages sont calculés et préparés dans la liste, avec une aide sur chaque paramètre et un contrôle de cohérence avant écriture.
+- **Autres contrôleurs** — pour un modèle que DunenScope ne connaît pas encore : choisir le protocole, trouver les registres qui répondent, les nommer, les suivre en courbe et enregistrer une fiche de modèle.
+- **Écrivez-nous depuis l'appli** — le bouton Aide envoie votre problème, idée ou question directement à l'éditeur ; les rapports d'erreur ne partent qu'avec votre accord.
 - **Tableau de bord en direct** — régime, couple, tension et courant batterie, levier, puissance, températures, état et défauts sur un seul écran ; débit de pompe ou vitesse du véhicule selon votre profil de machine.
 - **« Pourquoi ça plafonne ? »** — montre quelle limite agit en ce moment (couple, courant batterie, régime, tension) et depuis combien de temps ; résistance interne et marges de la batterie ; contrôle du câblage de chaque entrée ; temps restant avant réduction thermique ; analyse du dernier défaut.
 - **Courbes en temps réel** — six graphes synchronisés et une courbe libre de 4 variables au choix, enregistrement CSV.
@@ -56,7 +60,7 @@ La clé arrive par e-mail : collez-la dans DunenScope → **Licence** → **Acti
 1. Téléchargez **DunenScope_Setup** dans [Releases](https://github.com/simonlabrossedu71-tech/DunenScope/releases/latest) et lancez-le. Si Windows affiche « Windows a protégé votre ordinateur », cliquez sur *Informations complémentaires* → *Exécuter quand même*.
 2. Choisissez votre langue. L'installeur propose le pilote PEAK s'il manque.
 3. Branchez l'adaptateur CAN sur le contrôleur et mettez la clé sur ON.
-4. Choisissez l'adaptateur, 250 kbit/s, nœud 1 → **Connecter**. Pas encore de matériel ? Choisissez **Simulation**.
+4. Cliquez sur **Connecter** : DunenScope trouve tout seul l'adaptateur, le débit et le nœud. Pas encore de matériel ? Choisissez **Simulation**.
 5. Version complète : bouton **Licence** → collez votre clé → **Activer**.
 
 ## Configuration requise

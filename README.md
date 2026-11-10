@@ -13,6 +13,10 @@ DunenScope turns a Windows PC and a CAN adapter into a complete test bench for D
 
 ## What DunenScope does
 
+- **Plug and connect** — the CAN adapter, bit rate and controller address are found automatically, and the model is recognised.
+- **Easy setup** — answer a few questions (battery, speed, driving feel): the settings are calculated and prepared in the list, with help on every parameter and a consistency check before writing.
+- **Other controllers** — for a model DunenScope does not know yet: choose the protocol, find the registers that answer, name them, chart them and save a model profile.
+- **Talk to us from the app** — the Help button sends your problem, idea or question straight to the publisher; error reports are sent only with your consent.
 - **Live dashboard** — speed, torque, battery voltage and current, throttle, power, temperatures, state and faults on one screen; pump flow or vehicle speed from your machine profile.
 - **“Why is it capped?”** — shows which limit is acting right now (torque, battery current, speed, voltage) and for how long; battery internal resistance and margins; wiring check of every input; thermal time left; analysis of the last fault.
 - **Real-time plots** — six synchronised plots plus a free plot of any 4 variables, CSV recording.
@@ -56,7 +60,7 @@ Your key arrives by e-mail: paste it into DunenScope → **Licence** → **Activ
 1. Download **DunenScope_Setup** from [Releases](https://github.com/simonlabrossedu71-tech/DunenScope/releases/latest) and run it. If Windows shows “Windows protected your PC”, click *More info* → *Run anyway*.
 2. Choose your language. The installer offers the PEAK driver if it is missing.
 3. Plug the CAN adapter into the controller and switch the key ON.
-4. Select the adapter, 250 kbit/s, node 1 → **Connect**. No hardware yet? Choose **Simulation**.
+4. Click **Connect**: DunenScope finds the adapter, bit rate and node by itself. No hardware yet? Choose **Simulation**.
 5. Full version: **Licence** button → paste your key → **Activate**.
 
 ## Requirements

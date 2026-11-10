@@ -13,6 +13,10 @@ DunenScope macht aus einem Windows-PC und einem CAN-Adapter einen vollständigen
 
 ## Was DunenScope kann
 
+- **Anstecken und verbinden** — CAN-Adapter, Bitrate und Controller-Adresse werden automatisch gefunden, das Modell wird erkannt.
+- **Einfache Einstellung** — ein paar Fragen (Batterie, Drehzahl, Fahrgefühl): die Einstellungen werden berechnet und in der Liste vorbereitet, mit Hilfe zu jedem Parameter und Plausibilitätsprüfung vor dem Schreiben.
+- **Andere Controller** — für ein Modell, das DunenScope noch nicht kennt: Protokoll wählen, antwortende Register suchen, benennen, als Kurve anzeigen und ein Modellprofil speichern.
+- **Schreiben Sie uns aus der App** — die Schaltfläche Hilfe sendet Ihr Problem, Ihre Idee oder Frage direkt an den Herausgeber; Fehlerberichte nur mit Ihrer Zustimmung.
 - **Live-Übersicht** — Drehzahl, Drehmoment, Batteriespannung und -strom, Gashebel, Leistung, Temperaturen, Zustand und Fehler auf einem Bildschirm; Pumpenförderstrom oder Fahrzeuggeschwindigkeit aus Ihrem Maschinenprofil.
 - **„Warum ist es begrenzt?“** — zeigt, welche Grenze gerade wirkt (Drehmoment, Batteriestrom, Drehzahl, Spannung) und wie lange; Innenwiderstand und Reserven der Batterie; Verdrahtungsprüfung jedes Eingangs; verbleibende Zeit bis zur thermischen Reduzierung; Analyse des letzten Fehlers.
 - **Echtzeit-Verläufe** — sechs synchronisierte Diagramme plus ein freies Diagramm mit 4 beliebigen Variablen, CSV-Aufzeichnung.
@@ -56,7 +60,7 @@ Der Schlüssel kommt per E-Mail: in DunenScope unter **Lizenz** → **Aktivieren
 1. Laden Sie **DunenScope_Setup** unter [Releases](https://github.com/simonlabrossedu71-tech/DunenScope/releases/latest) herunter und starten Sie es. Zeigt Windows „Der Computer wurde durch Windows geschützt“, klicken Sie auf *Weitere Informationen* → *Trotzdem ausführen*.
 2. Wählen Sie Ihre Sprache. Das Installationsprogramm bietet den PEAK-Treiber an, falls er fehlt.
 3. Schließen Sie den CAN-Adapter an den Controller an und schalten Sie die Zündung ein.
-4. Adapter, 250 kbit/s, Knoten 1 wählen → **Verbinden**. Noch keine Hardware? Wählen Sie **Simulation**.
+4. Auf **Verbinden** klicken: DunenScope findet Adapter, Bitrate und Knoten selbst. Noch keine Hardware? **Simulation** wählen.
 5. Vollversion: Schaltfläche **Lizenz** → Schlüssel einfügen → **Aktivieren**.
 
 ## Voraussetzungen
