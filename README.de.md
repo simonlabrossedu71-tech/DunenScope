@@ -37,13 +37,17 @@ DunenScope macht aus einem Windows-PC und einem CAN-Adapter einen vollständigen
 | Verbinden, alle Parameter lesen, Übersicht, Verläufe | ✅ | ✅ |
 | Diagnose, Fehlerspeicher, Bandendetest, Exporte, Support-Paket | ✅ | ✅ |
 | Simulationsmodus mit allen Funktionen | ✅ | ✅ |
+| Automatische Updates | ✅ | ✅ |
 | Einstellungen in einen echten Controller schreiben | — | ✅ |
 | Motortests, PI-Einstellung, Gashebel-Kalibrierung | — | ✅ |
-| Automatische Updates | — | ✅ |
 
 ### Vollversion
 
-**Dauerlizenz 50 €** · **Jahresabonnement 20 €** · **Quartalsabonnement 7 €**. Ein Schlüssel pro PC, in Sekunden über die Schaltfläche **Lizenz** (oben rechts) aktiviert. Funktioniert nach der Aktivierung ohne Internet. Der Onlinekauf startet in Kürze.
+**Dauerlizenz 50 €** · **Jahresabonnement 20 €** · **Quartalsabonnement 7 €**. Ein Schlüssel pro PC, in Sekunden über die Schaltfläche **Lizenz** (oben rechts) aktiviert. Funktioniert nach der Aktivierung ohne Internet.
+
+**Online kaufen:** [Dauerhaft — 50 €](https://buy.polar.sh/polar_cl_qO94LG8UMUEZitzRuoHexlgbRA5yJC3UlaF5C1Fv4O9) · [Jährlich — 20 €/Jahr](https://buy.polar.sh/polar_cl_St8xQg80RzRuOiugr63Lz4lFQkZ8MM2BkT6Jx1tNVVB) · [Vierteljährlich — 7 €/Quartal](https://buy.polar.sh/polar_cl_vjvXcXdimxbXQ3JzsfKf5UKQlYK8jFWHVp7yw0nHOmJ)
+
+Der Schlüssel kommt per E-Mail: in DunenScope unter **Lizenz** → **Aktivieren** einfügen.
 
 <sub>Abos: eine Internetverbindung alle 45 Tage genügt.</sub>
 
@@ -70,7 +74,7 @@ Vollständige Handbücher (PDF), auch im Startmenü installiert:
 ## Updates und Sicherheit
 
 - Jedes Installationsprogramm ist signiert; DunenScope prüft die Signatur vor der Installation eines Updates.
-- Nutzern der Vollversion werden neue Versionen beim Start angeboten; Einstellungen, Profile und Sicherungen bleiben erhalten.
+- Neue Versionen werden allen Nutzern beim Start kostenlos angeboten; Einstellungen, Profile und Sicherungen bleiben erhalten.
 - DunenScope kontaktiert nur den Lizenzdienst und den Download-Server. Keine anderen Daten verlassen Ihren PC.
 
 ## Lizenz und Sicherheitshinweise

@@ -37,13 +37,17 @@ DunenScope trasforma un PC Windows e un adattatore CAN in un banco di prova comp
 | Connessione, lettura di tutti i parametri, cruscotto, curve | ✅ | ✅ |
 | Diagnosi, storico dei guasti, collaudo di fine linea, esportazioni, pacchetto di assistenza | ✅ | ✅ |
 | Modalità simulazione con tutte le funzioni sbloccate | ✅ | ✅ |
+| Aggiornamenti automatici | ✅ | ✅ |
 | Scrittura delle impostazioni in un controller reale | — | ✅ |
 | Prove motore, regolazione PI, calibrazione dell'acceleratore | — | ✅ |
-| Aggiornamenti automatici | — | ✅ |
 
 ### Versione completa
 
-**Licenza a vita 50 €** · **abbonamento annuale 20 €** · **abbonamento trimestrale 7 €**. Una chiave per PC, attivata in pochi secondi dal pulsante **Licenza** (in alto a destra). Funziona senza internet una volta attivata. La vendita online apre a breve.
+**Licenza a vita 50 €** · **abbonamento annuale 20 €** · **abbonamento trimestrale 7 €**. Una chiave per PC, attivata in pochi secondi dal pulsante **Licenza** (in alto a destra). Funziona senza internet una volta attivata.
+
+**Acquista online:** [A vita — 50 €](https://buy.polar.sh/polar_cl_qO94LG8UMUEZitzRuoHexlgbRA5yJC3UlaF5C1Fv4O9) · [Annuale — 20 €/anno](https://buy.polar.sh/polar_cl_St8xQg80RzRuOiugr63Lz4lFQkZ8MM2BkT6Jx1tNVVB) · [Trimestrale — 7 €/trimestre](https://buy.polar.sh/polar_cl_vjvXcXdimxbXQ3JzsfKf5UKQlYK8jFWHVp7yw0nHOmJ)
+
+La chiave arriva per e-mail: incollala in DunenScope → **Licenza** → **Attiva**.
 
 <sub>Abbonamenti: basta una connessione a internet ogni 45 giorni.</sub>
 
@@ -70,7 +74,7 @@ Manuali completi (PDF), installati anche nel menu Start:
 ## Aggiornamenti e sicurezza
 
 - Ogni programma di installazione è firmato; DunenScope verifica la firma prima di installare un aggiornamento.
-- Le nuove versioni vengono proposte all'avvio agli utenti della versione completa; impostazioni, profili e salvataggi vengono mantenuti.
+- Le nuove versioni vengono proposte all'avvio a tutti gli utenti, gratuitamente; impostazioni, profili e salvataggi vengono mantenuti.
 - DunenScope contatta solo il servizio licenze e il server di download. Nessun altro dato lascia il vostro PC.
 
 ## Licenza e avvertenze

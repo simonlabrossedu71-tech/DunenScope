@@ -37,13 +37,17 @@ O DunenScope transforma um PC com Windows e um adaptador CAN em uma bancada de t
 | Conexão, leitura de todos os parâmetros, painel, curvas | ✅ | ✅ |
 | Diagnóstico, histórico de falhas, teste de fim de linha, exportações, pacote de suporte | ✅ | ✅ |
 | Modo simulação com todas as funções liberadas | ✅ | ✅ |
+| Atualizações automáticas | ✅ | ✅ |
 | Gravação de ajustes em um controlador real | — | ✅ |
 | Testes do motor, ajuste do PI, calibração do acelerador | — | ✅ |
-| Atualizações automáticas | — | ✅ |
 
 ### Versão completa
 
-**Licença vitalícia 50 €** · **assinatura anual 20 €** · **assinatura trimestral 7 €**. Uma chave por PC, ativada em segundos pelo botão **Licença** (canto superior direito). Funciona sem internet depois de ativada. A compra online abre em breve.
+**Licença vitalícia 50 €** · **assinatura anual 20 €** · **assinatura trimestral 7 €**. Uma chave por PC, ativada em segundos pelo botão **Licença** (canto superior direito). Funciona sem internet depois de ativada.
+
+**Comprar online:** [Vitalícia — 50 €](https://buy.polar.sh/polar_cl_qO94LG8UMUEZitzRuoHexlgbRA5yJC3UlaF5C1Fv4O9) · [Anual — 20 €/ano](https://buy.polar.sh/polar_cl_St8xQg80RzRuOiugr63Lz4lFQkZ8MM2BkT6Jx1tNVVB) · [Trimestral — 7 €/trimestre](https://buy.polar.sh/polar_cl_vjvXcXdimxbXQ3JzsfKf5UKQlYK8jFWHVp7yw0nHOmJ)
+
+A chave chega por e-mail: cole-a no DunenScope → **Licença** → **Ativar**.
 
 <sub>Assinaturas: basta conectar-se à internet uma vez a cada 45 dias.</sub>
 
@@ -70,7 +74,7 @@ Manuais completos (PDF), também instalados no menu Iniciar:
 ## Atualizações e segurança
 
 - Cada instalador é assinado; o DunenScope verifica a assinatura antes de instalar uma atualização.
-- Novas versões são oferecidas ao iniciar para os usuários da versão completa; ajustes, perfis e backups são mantidos.
+- Novas versões são oferecidas ao iniciar para todos os usuários, gratuitamente; ajustes, perfis e backups são mantidos.
 - O DunenScope só se comunica com o serviço de licenças e o servidor de downloads. Nenhum outro dado sai do seu PC.
 
 ## Licença e precauções

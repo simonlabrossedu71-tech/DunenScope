@@ -37,13 +37,17 @@ DunenScope convierte un PC con Windows y un adaptador CAN en un banco de pruebas
 | Conexión, lectura de todos los parámetros, panel, curvas | ✅ | ✅ |
 | Diagnóstico, historial de fallos, prueba de fin de línea, exportaciones, paquete de soporte | ✅ | ✅ |
 | Modo simulación con todas las funciones desbloqueadas | ✅ | ✅ |
+| Actualizaciones automáticas | ✅ | ✅ |
 | Escritura de ajustes en un controlador real | — | ✅ |
 | Pruebas de motor, ajuste del PI, calibración del acelerador | — | ✅ |
-| Actualizaciones automáticas | — | ✅ |
 
 ### Versión completa
 
-**Licencia de por vida 50 €** · **suscripción anual 20 €** · **suscripción trimestral 7 €**. Una clave por PC, activada en segundos desde el botón **Licencia** (arriba a la derecha). Funciona sin internet una vez activada. La compra en línea abrirá pronto.
+**Licencia de por vida 50 €** · **suscripción anual 20 €** · **suscripción trimestral 7 €**. Una clave por PC, activada en segundos desde el botón **Licencia** (arriba a la derecha). Funciona sin internet una vez activada.
+
+**Comprar en línea:** [De por vida — 50 €](https://buy.polar.sh/polar_cl_qO94LG8UMUEZitzRuoHexlgbRA5yJC3UlaF5C1Fv4O9) · [Anual — 20 €/año](https://buy.polar.sh/polar_cl_St8xQg80RzRuOiugr63Lz4lFQkZ8MM2BkT6Jx1tNVVB) · [Trimestral — 7 €/trimestre](https://buy.polar.sh/polar_cl_vjvXcXdimxbXQ3JzsfKf5UKQlYK8jFWHVp7yw0nHOmJ)
+
+La clave llega por correo: péguela en DunenScope → **Licencia** → **Activar**.
 
 <sub>Suscripciones: basta con conectarse a internet una vez cada 45 días.</sub>
 
@@ -70,7 +74,7 @@ Manuales completos (PDF), también instalados en el menú Inicio:
 ## Actualizaciones y seguridad
 
 - Cada instalador está firmado; DunenScope comprueba la firma antes de instalar una actualización.
-- Las nuevas versiones se proponen al iniciar a los usuarios de la versión completa; se conservan ajustes, perfiles y copias de seguridad.
+- Las nuevas versiones se proponen al iniciar a todos los usuarios, gratis; se conservan ajustes, perfiles y copias de seguridad.
 - DunenScope solo contacta con el servicio de licencias y el servidor de descargas. Ningún otro dato sale de su PC.
 
 ## Licencia y precauciones

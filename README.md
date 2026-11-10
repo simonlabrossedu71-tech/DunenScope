@@ -37,13 +37,17 @@ DunenScope turns a Windows PC and a CAN adapter into a complete test bench for D
 | Connect, read all parameters, dashboard, real-time plots | ✅ | ✅ |
 | Diagnostics, fault history, end-of-line test, exports, support package | ✅ | ✅ |
 | Simulation mode with every feature unlocked | ✅ | ✅ |
+| Automatic updates | ✅ | ✅ |
 | Write settings to a real controller | — | ✅ |
 | Motor tests, PI tuning, throttle calibration | — | ✅ |
-| Automatic updates | — | ✅ |
 
 ### Full version
 
-**Lifetime licence 50 €** · **yearly subscription 20 €** · **quarterly subscription 7 €**. One key per PC, activated in seconds from the **Licence** button (top right). Works offline once activated. Online purchase is opening soon.
+**Lifetime licence 50 €** · **yearly subscription 20 €** · **quarterly subscription 7 €**. One key per PC, activated in seconds from the **Licence** button (top right). Works offline once activated.
+
+**Buy online:** [Lifetime — €50](https://buy.polar.sh/polar_cl_qO94LG8UMUEZitzRuoHexlgbRA5yJC3UlaF5C1Fv4O9) · [Yearly — €20/year](https://buy.polar.sh/polar_cl_St8xQg80RzRuOiugr63Lz4lFQkZ8MM2BkT6Jx1tNVVB) · [Quarterly — €7/quarter](https://buy.polar.sh/polar_cl_vjvXcXdimxbXQ3JzsfKf5UKQlYK8jFWHVp7yw0nHOmJ)
+
+Your key arrives by e-mail: paste it into DunenScope → **Licence** → **Activate**.
 
 <sub>Subscriptions only need to go online once every 45 days.</sub>
 
@@ -70,7 +74,7 @@ Full user manuals (PDF), also installed in the Start menu:
 ## Updates and security
 
 - Every installer is signed; DunenScope checks the signature before installing an update.
-- Full-version users are offered new versions at start-up; settings, profiles and backups are kept.
+- New versions are offered at start-up to every user, free of charge; settings, profiles and backups are kept.
 - DunenScope only contacts the licence service and the download server. No other data leaves your PC.
 
 ## Licence and safety
