@@ -72,6 +72,20 @@ DunenScope 让一台 Windows 电脑和一个 CAN 适配器成为 Dunen / ELYX �
 - CAN 适配器：PEAK PCAN-USB（推荐）、Kvaser、IXXAT、Vector 或 SLCAN（CANable…）。
 - 使用 DunenConfiger 协议的 Dunen / ELYX 控制器（CAN 上的 Modbus，默认 250 kbit/s）。
 
+## 您的控制器尚未支持？
+
+DunenScope 可以适配任何通过 CAN、CANopen、Modbus（RS-485 或 TCP）或有文档说明的串口进行通信的电机控制器。把它的通信文件发给我们：我们会把它加入软件。
+
+1. 提交请求：**[添加我的控制器](https://github.com/simonlabrossedu71-tech/DunenScope/issues/new?template=nouveau-controleur.yml)**（需要免费的 GitHub 账号）。
+2. 附上您手头的资料——越全，进度越快：
+   - 控制器的**说明书**，尤其是通信章节（PDF）；
+   - **通信说明**：CANopen 的 EDS 或 XDD 文件、Modbus 寄存器表（地址、类型、比例、单位、读/写）、CAN 的 DBC 文件或报文说明、串口协议；
+   - **故障代码表**及各代码的含义；
+   - 如果可以：制造商软件导出的设置，以及电机停止、运行和故障时的 CAN 抓包（candump、PCAN-View 记录）。
+3. 我们会在请求中用您的语言答复，通常在一周内，并询问缺少的资料。支持完成后，会随 DunenScope 的更新一起提供。
+
+<sub>附在 GitHub 请求中的文件是公开的：请不要附上受保密协议约束的文件，只需在请求中说明即可。GitHub 并不接受所有文件类型：请把 .eds、.xdd、.dbc 等文件放进 .zip。</sub>
+
 ## 使用说明
 
 完整使用说明（PDF），安装后也可在开始菜单中找到：

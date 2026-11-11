@@ -1,0 +1,89 @@
+name: "Ajouter mon contrôleur · Add my controller"
+description: "Envoyez les fichiers de communication de votre contrôleur moteur : nous l'ajoutons à DunenScope. · Send your motor controller's communication files: we add it to DunenScope."
+title: "[Contrôleur] "
+labels: ["nouveau contrôleur"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **FR** — Remplissez ce que vous savez, joignez vos fichiers dans les cases ci-dessous (glisser-déposer). Nous répondons ici, dans votre langue, en général sous une semaine. Écrivez dans la langue de votre choix.
+        **EN** — Fill in what you know and drop your files in the boxes below. We answer here, in your language, usually within a week. Write in any language.
+
+        ⚠️ Les fichiers joints sont **publics** : aucun document sous accord de confidentialité. Mettez les fichiers .eds, .xdd, .dbc… dans un **.zip** (GitHub ne les accepte pas tels quels).
+        ⚠️ Attachments are **public**: no document under a confidentiality agreement. Put .eds, .xdd, .dbc… files in a **.zip** (GitHub does not accept them as they are).
+  - type: input
+    id: modele
+    attributes:
+      label: "Fabricant et modèle · Manufacturer and model"
+      placeholder: "ex. Curtis 1236E, Sevcon Gen4, Kelly KLS7230S, Sigma Drive…"
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: "Version du logiciel du contrôleur (si connue) · Controller firmware version (if known)"
+  - type: dropdown
+    id: protocole
+    attributes:
+      label: "Protocole · Protocol"
+      multiple: true
+      options:
+        - "CANopen"
+        - "CAN (trames du fabricant · manufacturer frames)"
+        - "Modbus RTU (RS-485)"
+        - "Modbus TCP (Ethernet)"
+        - "Série · Serial (UART, RS-232, USB)"
+        - "Je ne sais pas · I don't know"
+    validations:
+      required: true
+  - type: textarea
+    id: liaison
+    attributes:
+      label: "Réglages de la liaison · Link settings"
+      description: "Débit, numéro de nœud ou adresse, parité… · Bit rate or baud rate, node ID or address, parity…"
+      placeholder: "ex. CAN 250 kbit/s, nœud 1 · RS-485 19 200 bit/s, parité paire, adresse 1"
+  - type: textarea
+    id: fichiers
+    attributes:
+      label: "Fichiers de communication · Communication files"
+      description: |
+        Notice (surtout le chapitre communication), fichier EDS/XDD, table des registres Modbus, fichier DBC ou description des trames, protocole série. · Manual (especially the communication chapter), EDS/XDD file, Modbus register map, DBC file or frame description, serial protocol.
+      placeholder: "Glissez vos fichiers ici · Drop your files here"
+    validations:
+      required: true
+  - type: textarea
+    id: defauts
+    attributes:
+      label: "Codes de défaut · Fault codes"
+      description: "La liste des codes et leur signification (ou la page de la notice). · The list of codes and their meaning (or the manual page)."
+  - type: textarea
+    id: captures
+    attributes:
+      label: "Captures et exports (facultatif) · Captures and exports (optional)"
+      description: "Export des réglages depuis le logiciel du fabricant ; capture CAN (candump, trace PCAN-View) moteur à l'arrêt, en marche, en défaut. · Settings export from the manufacturer's software; CAN capture (candump, PCAN-View trace) with the motor stopped, running, in fault."
+  - type: checkboxes
+    id: besoins
+    attributes:
+      label: "Ce que vous voulez faire · What you want to do"
+      options:
+        - label: "Lire les mesures · Read the measurements"
+        - label: "Diagnostiquer les défauts · Diagnose faults"
+        - label: "Modifier les réglages · Change the settings"
+        - label: "Faire tourner le moteur pour des essais · Run the motor for tests"
+  - type: input
+    id: adaptateur
+    attributes:
+      label: "Adaptateur utilisé · Adapter used"
+      placeholder: "ex. PEAK PCAN-USB, CANable, USB-RS485…"
+  - type: textarea
+    id: machine
+    attributes:
+      label: "Machine et usage (facultatif) · Machine and use (optional)"
+      placeholder: "ex. kart 48 V, bateau électrique, chariot… · e.g. 48 V kart, electric boat, cart…"
+  - type: checkboxes
+    id: public
+    attributes:
+      label: "Confirmation"
+      options:
+        - label: "Les fichiers joints sont publics : je n'envoie aucun document confidentiel. · Attachments are public: I am not sending any confidential document."
+          required: true

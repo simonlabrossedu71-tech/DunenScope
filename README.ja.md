@@ -72,6 +72,20 @@ DunenScope は、Windows PC と CAN アダプターを Dunen / ELYX コントロ
 - CAN アダプター：PEAK PCAN-USB（推奨）、Kvaser、IXXAT、Vector、SLCAN（CANable…）。
 - DunenConfiger のプロトコル（CAN 上の Modbus、既定 250 kbit/s）を使う Dunen / ELYX コントローラー。
 
+## お使いのコントローラーはまだ対応していませんか？
+
+DunenScope は、CAN、CANopen、Modbus（RS-485 または TCP）、または仕様が公開されたシリアル通信でやり取りするあらゆるモーターコントローラーに対応できます。通信ファイルを送っていただければ、ソフトウェアに追加します。
+
+1. リクエストを作成：**[コントローラーを追加](https://github.com/simonlabrossedu71-tech/DunenScope/issues/new?template=nouveau-controleur.yml)**（無料の GitHub アカウントが必要）。
+2. お手元の資料を添付してください。多いほど早く対応できます：
+   - コントローラーの**マニュアル**、特に通信の章（PDF）；
+   - **通信仕様**：CANopen の EDS または XDD ファイル、Modbus レジスター表（アドレス、型、スケール、単位、読み取り/書き込み）、CAN の DBC ファイルまたはフレームの説明、シリアルプロトコル；
+   - **異常コードの一覧**とその意味；
+   - 可能であれば：メーカーのソフトウェアから書き出した設定と、モーター停止時・運転時・異常時の CAN キャプチャ（candump、PCAN-View のトレース）。
+3. リクエスト内で、お客様の言語で、通常 1 週間以内にお返事し、足りない資料をお尋ねします。対応が完成すると、DunenScope のアップデートで提供されます。
+
+<sub>GitHub のリクエストに添付したファイルは公開されます：秘密保持契約の対象となる資料は添付せず、リクエストでその旨をお知らせください。GitHub はすべての種類のファイルを受け付けるわけではありません：.eds、.xdd、.dbc などのファイルは .zip にまとめてください。</sub>
+
 ## マニュアル
 
 完全なマニュアル（PDF）。スタートメニューにもインストールされます：

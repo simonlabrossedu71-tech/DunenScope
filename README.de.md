@@ -72,6 +72,20 @@ Der Schlüssel kommt per E-Mail: in DunenScope unter **Lizenz** → **Aktivieren
 - Ein CAN-Adapter: PEAK PCAN-USB (empfohlen), Kvaser, IXXAT, Vector oder SLCAN (CANable…).
 - Ein Dunen / ELYX-Controller mit dem DunenConfiger-Protokoll (Modbus über CAN, standardmäßig 250 kbit/s).
 
+## Ihre Steuerung wird noch nicht unterstützt?
+
+DunenScope lässt sich an jede Motorsteuerung anpassen, die über CAN, CANopen, Modbus (RS-485 oder TCP) oder eine dokumentierte serielle Verbindung kommuniziert. Schicken Sie uns ihre Kommunikationsdateien: Wir nehmen sie in die Software auf.
+
+1. Anfrage stellen: **[Meine Steuerung hinzufügen](https://github.com/simonlabrossedu71-tech/DunenScope/issues/new?template=nouveau-controleur.yml)** (kostenloses GitHub-Konto).
+2. Hängen Sie an, was Sie haben – je mehr, desto schneller:
+   - das **Handbuch** der Steuerung, vor allem das Kapitel zur Kommunikation (PDF);
+   - die **Beschreibung der Kommunikation**: EDS- oder XDD-Datei (CANopen), Modbus-Registertabelle (Adresse, Typ, Skalierung, Einheit, Lesen/Schreiben), DBC-Datei oder Beschreibung der CAN-Telegramme, serielles Protokoll;
+   - die **Liste der Fehlercodes** und ihre Bedeutung;
+   - wenn möglich: einen Export der Einstellungen aus der Herstellersoftware und einen CAN-Mitschnitt (candump, PCAN-View-Trace) mit stehendem, laufendem Motor und im Fehlerfall.
+3. Wir antworten in der Anfrage, in Ihrer Sprache, meist innerhalb einer Woche, und fragen nach, was fehlt. Sobald die Unterstützung fertig ist, kommt sie mit einem DunenScope-Update.
+
+<sub>An eine GitHub-Anfrage angehängte Dateien sind öffentlich: Hängen Sie kein Dokument an, das einer Geheimhaltungsvereinbarung unterliegt – erwähnen Sie es einfach in der Anfrage. GitHub akzeptiert nicht jeden Dateityp: Legen Sie .eds-, .xdd-, .dbc- und ähnliche Dateien in eine .zip-Datei.</sub>
+
 ## Handbücher
 
 Vollständige Handbücher (PDF), auch im Startmenü installiert:

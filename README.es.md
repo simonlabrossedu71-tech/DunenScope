@@ -72,6 +72,20 @@ La clave llega por correo: péguela en DunenScope → **Licencia** → **Activar
 - Un adaptador CAN: PEAK PCAN-USB (recomendado), Kvaser, IXXAT, Vector o SLCAN (CANable…).
 - Un controlador Dunen / ELYX con el protocolo de DunenConfiger (Modbus sobre CAN, 250 kbit/s por defecto).
 
+## ¿Su controlador aún no es compatible?
+
+DunenScope puede adaptarse a cualquier controlador de motor que se comunique por CAN, CANopen, Modbus (RS-485 o TCP) o por un enlace serie documentado. Envíenos sus archivos de comunicación: lo añadimos al programa.
+
+1. Abra una solicitud: **[Añadir mi controlador](https://github.com/simonlabrossedu71-tech/DunenScope/issues/new?template=nouveau-controleur.yml)** (cuenta gratuita de GitHub).
+2. Adjunte lo que tenga; cuanto más envíe, más rápido irá:
+   - el **manual** del controlador, sobre todo su capítulo de comunicación (PDF);
+   - la **descripción de la comunicación**: archivo EDS o XDD (CANopen), tabla de registros Modbus (dirección, tipo, escala, unidad, lectura/escritura), archivo DBC o descripción de las tramas CAN, protocolo serie;
+   - la **lista de códigos de fallo** y su significado;
+   - si puede: una exportación de los ajustes desde el programa del fabricante y una captura CAN (candump, traza de PCAN-View) con el motor parado, en marcha y en fallo.
+3. Respondemos en la solicitud, en su idioma, normalmente en una semana, y pedimos lo que falte. Cuando la compatibilidad está lista, llega con una actualización de DunenScope.
+
+<sub>Los archivos adjuntos a una solicitud de GitHub son públicos: no adjunte un documento sujeto a un acuerdo de confidencialidad, simplemente indíquelo en la solicitud. GitHub no acepta todos los tipos de archivo: ponga los archivos .eds, .xdd, .dbc y similares en un .zip.</sub>
+
 ## Manuales
 
 Manuales completos (PDF), también instalados en el menú Inicio:
