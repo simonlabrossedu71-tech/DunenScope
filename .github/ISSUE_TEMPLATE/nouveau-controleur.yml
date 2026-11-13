@@ -9,6 +9,17 @@ body:
         **FR** — Remplissez ce que vous savez, joignez vos fichiers dans les cases ci-dessous (glisser-déposer). Chaque demande est lue et prise en charge automatiquement dans la journée : réponse ici, dans votre langue, questions s'il manque une information, puis l'appareil arrive dans une prochaine mise à jour. Écrivez dans la langue de votre choix.
         **EN** — Fill in what you know and drop your files in the boxes below. Every request is read and picked up automatically within the day: an answer here, in your language, questions if something is missing, then the device comes in an upcoming update. Write in any language.
 
+        **Documents nécessaires · Documents we need**
+
+        | Protocole · Protocol | Indispensable · Required | Utile · Useful |
+        | --- | --- | --- |
+        | CANopen | fichier EDS ou XDD (ou table des objets), débit, n° de nœud · EDS or XDD file (or object table), bit rate, node ID | codes de défaut du fabricant · manufacturer fault codes |
+        | CAN du fabricant · Manufacturer CAN | description des trames (identifiants, octets, échelles, unités, période) ou fichier DBC, débit · frame description (IDs, bytes, scales, units, period) or DBC file, bit rate | capture CAN moteur à l'arrêt, en marche, en défaut · CAN capture with the motor stopped, running, in fault |
+        | Modbus RTU / TCP | table des registres (adresse, type, échelle, unité, lecture/écriture), vitesse, parité, adresse · register map (address, type, scale, unit, read/write), baud rate, parity, address | codes de défaut, registres de commande · fault codes, command registers |
+        | Série · Serial | format des trames, somme de contrôle, vitesse · frame format, checksum, baud rate | capture des échanges avec le logiciel du fabricant · capture of the exchanges with the manufacturer's software |
+
+        S'il manque un document, nous vous le demandons ici. · If something is missing, we ask you for it here.
+
         ⚠️ Les fichiers joints sont **publics** : aucun document sous accord de confidentialité. Mettez les fichiers .eds, .xdd, .dbc… dans un **.zip** (GitHub ne les accepte pas tels quels).
         ⚠️ Attachments are **public**: no document under a confidentiality agreement. Put .eds, .xdd, .dbc… files in a **.zip** (GitHub does not accept them as they are).
   - type: input
