@@ -1,0 +1,144 @@
+{
+  "format": "dunenscope-fiche/1",
+  "brand": "Nanotec",
+  "model": "PD4-E",
+  "protocol": "canopen",
+  "tx_id": 1538,
+  "rx_id": 1746,
+  "width": 32,
+  "signed": true,
+  "registers": [
+    {
+      "address": "6041h.0",
+      "name": "Mot d'état",
+      "unit": "",
+      "scale": 1.0,
+      "dtype": 6,
+      "fc": 3,
+      "value": null
+    },
+    {
+      "address": "603Fh.0",
+      "name": "Code du dernier défaut",
+      "unit": "",
+      "scale": 1.0,
+      "dtype": 6,
+      "fc": 3,
+      "value": null
+    },
+    {
+      "address": "6061h.0",
+      "name": "Mode actif",
+      "unit": "",
+      "scale": 1.0,
+      "dtype": 2,
+      "fc": 3,
+      "value": null
+    },
+    {
+      "address": "606Ch.0",
+      "name": "Vitesse mesurée",
+      "unit": "tr/min",
+      "scale": 1.0,
+      "dtype": 4,
+      "fc": 3,
+      "value": null
+    },
+    {
+      "address": "6064h.0",
+      "name": "Position mesurée",
+      "unit": "incréments",
+      "scale": 1.0,
+      "dtype": 4,
+      "fc": 3,
+      "value": null
+    },
+    {
+      "address": "6077h.0",
+      "name": "Couple mesuré",
+      "unit": "‰ du couple nominal",
+      "scale": 1.0,
+      "dtype": 3,
+      "fc": 3,
+      "value": null
+    },
+    {
+      "address": "2039h.2",
+      "name": "Courant Iq mesuré",
+      "unit": "A",
+      "scale": 0.001,
+      "dtype": 4,
+      "fc": 3,
+      "value": null
+    },
+    {
+      "address": "2039h.1",
+      "name": "Courant Id mesuré",
+      "unit": "A",
+      "scale": 0.001,
+      "dtype": 4,
+      "fc": 3,
+      "value": null
+    },
+    {
+      "address": "4014h.1",
+      "name": "Tension d'alimentation (puissance)",
+      "unit": "V",
+      "scale": 0.001,
+      "dtype": 4,
+      "fc": 3,
+      "value": null
+    },
+    {
+      "address": "4014h.2",
+      "name": "Tension d'alimentation (logique)",
+      "unit": "V",
+      "scale": 0.001,
+      "dtype": 4,
+      "fc": 3,
+      "value": null
+    },
+    {
+      "address": "4014h.3",
+      "name": "Température de la carte",
+      "unit": "°C",
+      "scale": 0.1,
+      "dtype": 4,
+      "fc": 3,
+      "value": null
+    },
+    {
+      "address": "1001h.0",
+      "name": "Registre d'erreur",
+      "unit": "",
+      "scale": 1.0,
+      "dtype": 5,
+      "fc": 3,
+      "value": null
+    },
+    {
+      "address": "2031h.0",
+      "name": "Courant maximal (réglage)",
+      "unit": "A",
+      "scale": 0.001,
+      "dtype": 7,
+      "fc": 3,
+      "value": null
+    },
+    {
+      "address": "2030h.0",
+      "name": "Paires de pôles (réglage)",
+      "unit": "",
+      "scale": 1.0,
+      "dtype": 7,
+      "fc": 3,
+      "value": null
+    }
+  ],
+  "link": {
+    "node": 1,
+    "can_rate": 1000000
+  },
+  "profile": "nanotec_pd4e",
+  "device": ""
+}

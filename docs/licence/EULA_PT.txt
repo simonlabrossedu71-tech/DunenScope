@@ -10,6 +10,9 @@ Sem licença, o DunenScope funciona no modo descoberta (leitura, diagnóstico, s
 2. Proibições
 É proibido copiar o software além da licença adquirida, compartilhar uma chave, alugá-lo, revendê-lo,
 descompilá-lo, desmontá-lo, modificá-lo ou contornar suas medidas de proteção.
+Isso não se aplica aos componentes livres fornecidos com o DunenScope e listados em THIRD_PARTY_LICENSES.txt
+(Qt, PySide6, python-can, libusb…): você pode substituí-los por uma versão modificada e realizar a engenharia
+reversa necessária para depurá-la, conforme suas licenças.
 
 3. Segurança das máquinas
 O DunenScope pode alterar os ajustes de um controlador de motor e fazer um motor girar. O usuário é o único

@@ -10,6 +10,9 @@ completa se concede según la licencia adquirida (compra de por vida o suscripci
 2. Prohibiciones
 Queda prohibido copiar el software más allá de la licencia adquirida, compartir una clave, alquilarlo,
 revenderlo, descompilarlo, desensamblarlo, modificarlo o eludir sus medidas de protección.
+Esto no se aplica a los componentes libres incluidos con DunenScope y enumerados en THIRD_PARTY_LICENSES.txt
+(Qt, PySide6, python-can, libusb…): puede sustituirlos por una versión modificada y realizar la ingeniería
+inversa necesaria para depurarla, según sus licencias.
 
 3. Seguridad de las máquinas
 DunenScope puede modificar los ajustes de un controlador de motor y hacer girar un motor. El usuario es el

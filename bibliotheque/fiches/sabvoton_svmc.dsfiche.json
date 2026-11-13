@@ -1,0 +1,109 @@
+{
+  "format": "dunenscope-fiche/1",
+  "brand": "Sabvoton / MQCON",
+  "model": "SVMC",
+  "protocol": "modbus_rtu",
+  "tx_id": 1538,
+  "rx_id": 1746,
+  "width": 32,
+  "signed": true,
+  "registers": [
+    {
+      "address": 2757,
+      "name": "Régime moteur",
+      "unit": "tr/min",
+      "scale": 1.0,
+      "dtype": "s16",
+      "fc": 3,
+      "value": null
+    },
+    {
+      "address": 2753,
+      "name": "Courant de couple (mesuré)",
+      "unit": "A",
+      "scale": 1.0,
+      "dtype": "s16",
+      "fc": 3,
+      "value": null
+    },
+    {
+      "address": 2751,
+      "name": "Courant de défluxage (mesuré)",
+      "unit": "A",
+      "scale": 1.0,
+      "dtype": "s16",
+      "fc": 3,
+      "value": null
+    },
+    {
+      "address": 2749,
+      "name": "Tension batterie",
+      "unit": "V",
+      "scale": 0.018315018315018316,
+      "dtype": "u16",
+      "fc": 3,
+      "value": null
+    },
+    {
+      "address": 2754,
+      "name": "Température contrôleur",
+      "unit": "°C",
+      "scale": 1.0,
+      "dtype": "s16",
+      "fc": 3,
+      "value": null
+    },
+    {
+      "address": 2755,
+      "name": "Température moteur",
+      "unit": "°C",
+      "scale": 1.0,
+      "dtype": "s16",
+      "fc": 3,
+      "value": null
+    },
+    {
+      "address": 2759,
+      "name": "Accélérateur",
+      "unit": "V",
+      "scale": 0.000152587890625,
+      "dtype": "u16",
+      "fc": 3,
+      "value": null
+    },
+    {
+      "address": 2748,
+      "name": "État du système (code)",
+      "unit": "",
+      "scale": 1.0,
+      "dtype": "u16",
+      "fc": 3,
+      "value": null
+    },
+    {
+      "address": 2758,
+      "name": "Capteurs Hall (C, B, A)",
+      "unit": "",
+      "scale": 1.0,
+      "dtype": "u16",
+      "fc": 3,
+      "value": null
+    },
+    {
+      "address": 2760,
+      "name": "État des transistors (code)",
+      "unit": "",
+      "scale": 1.0,
+      "dtype": "u16",
+      "fc": 3,
+      "value": null
+    }
+  ],
+  "link": {
+    "baudrate": 19200,
+    "parity": "O",
+    "unit": 1
+  },
+  "profile": "sabvoton",
+  "device": ""
+}

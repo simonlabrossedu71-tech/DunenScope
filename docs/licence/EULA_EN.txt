@@ -10,6 +10,9 @@ is granted according to the licence purchased (lifetime or subscription), for a 
 2. Restrictions
 You may not copy the software beyond the licence purchased, share a key, rent it, resell it, decompile,
 disassemble or modify it, or circumvent its protection measures.
+This does not apply to the free components shipped with DunenScope and listed in THIRD_PARTY_LICENSES.txt
+(Qt, PySide6, python-can, libusb…): you may replace them with a modified version and carry out the reverse
+engineering needed to debug it, as their licences allow.
 
 3. Machine safety
 DunenScope can change the settings of a motor controller and run a motor. The user is solely responsible

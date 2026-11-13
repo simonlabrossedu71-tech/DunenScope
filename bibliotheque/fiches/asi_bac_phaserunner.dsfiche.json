@@ -1,0 +1,109 @@
+{
+  "format": "dunenscope-fiche/1",
+  "brand": "ASI / Grin",
+  "model": "BAC, Phaserunner",
+  "protocol": "modbus_rtu",
+  "tx_id": 1538,
+  "rx_id": 1746,
+  "width": 32,
+  "signed": true,
+  "registers": [
+    {
+      "address": 258,
+      "name": "Défauts",
+      "unit": "",
+      "scale": 1.0,
+      "dtype": "u16",
+      "fc": 3,
+      "value": null
+    },
+    {
+      "address": 263,
+      "name": "Régime moteur",
+      "unit": "tr/min",
+      "scale": 1.0,
+      "dtype": "s16",
+      "fc": 3,
+      "value": null
+    },
+    {
+      "address": 262,
+      "name": "Courant moteur",
+      "unit": "A",
+      "scale": 0.03125,
+      "dtype": "s16",
+      "fc": 3,
+      "value": null
+    },
+    {
+      "address": 266,
+      "name": "Courant batterie",
+      "unit": "A",
+      "scale": 0.03125,
+      "dtype": "s16",
+      "fc": 3,
+      "value": null
+    },
+    {
+      "address": 265,
+      "name": "Tension batterie",
+      "unit": "V",
+      "scale": 0.03125,
+      "dtype": "u16",
+      "fc": 3,
+      "value": null
+    },
+    {
+      "address": 259,
+      "name": "Température contrôleur",
+      "unit": "°C",
+      "scale": 1.0,
+      "dtype": "s16",
+      "fc": 3,
+      "value": null
+    },
+    {
+      "address": 261,
+      "name": "Température moteur",
+      "unit": "°C",
+      "scale": 1.0,
+      "dtype": "s16",
+      "fc": 3,
+      "value": null
+    },
+    {
+      "address": 270,
+      "name": "Accélérateur",
+      "unit": "V",
+      "scale": 0.000244140625,
+      "dtype": "u16",
+      "fc": 3,
+      "value": null
+    },
+    {
+      "address": 267,
+      "name": "Charge de la batterie",
+      "unit": "%",
+      "scale": 0.03125,
+      "dtype": "u16",
+      "fc": 3,
+      "value": null
+    },
+    {
+      "address": 268,
+      "name": "Puissance batterie",
+      "unit": "W",
+      "scale": 1.0,
+      "dtype": "s16",
+      "fc": 3,
+      "value": null
+    }
+  ],
+  "link": {
+    "baudrate": 115200,
+    "parity": "N",
+    "unit": 1
+  },
+  "profile": "asi_bac",
+  "device": ""
+}

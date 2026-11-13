@@ -1,0 +1,224 @@
+{
+  "format": "dunenscope-fiche/1",
+  "brand": "CANopen",
+  "model": "CiA 402",
+  "protocol": "canopen",
+  "tx_id": 1538,
+  "rx_id": 1746,
+  "width": 32,
+  "signed": true,
+  "registers": [
+    {
+      "address": "6007h.0",
+      "name": "Réaction à la perte de communication",
+      "unit": "",
+      "scale": 1.0,
+      "dtype": 3,
+      "fc": 3,
+      "value": null
+    },
+    {
+      "address": "603Fh.0",
+      "name": "Code du dernier défaut",
+      "unit": "",
+      "scale": 1.0,
+      "dtype": 6,
+      "fc": 3,
+      "value": null
+    },
+    {
+      "address": "6040h.0",
+      "name": "Mot de commande",
+      "unit": "",
+      "scale": 1.0,
+      "dtype": 6,
+      "fc": 3,
+      "value": null
+    },
+    {
+      "address": "6041h.0",
+      "name": "Mot d'état",
+      "unit": "",
+      "scale": 1.0,
+      "dtype": 6,
+      "fc": 3,
+      "value": null
+    },
+    {
+      "address": "6060h.0",
+      "name": "Mode demandé",
+      "unit": "",
+      "scale": 1.0,
+      "dtype": 2,
+      "fc": 3,
+      "value": null
+    },
+    {
+      "address": "6061h.0",
+      "name": "Mode actif",
+      "unit": "",
+      "scale": 1.0,
+      "dtype": 2,
+      "fc": 3,
+      "value": null
+    },
+    {
+      "address": "6064h.0",
+      "name": "Position mesurée",
+      "unit": "incréments",
+      "scale": 1.0,
+      "dtype": 4,
+      "fc": 3,
+      "value": null
+    },
+    {
+      "address": "606Ch.0",
+      "name": "Vitesse mesurée",
+      "unit": "unités de vitesse",
+      "scale": 1.0,
+      "dtype": 4,
+      "fc": 3,
+      "value": null
+    },
+    {
+      "address": "6071h.0",
+      "name": "Couple demandé",
+      "unit": "‰ du couple nominal",
+      "scale": 1.0,
+      "dtype": 3,
+      "fc": 3,
+      "value": null
+    },
+    {
+      "address": "6072h.0",
+      "name": "Couple maximal",
+      "unit": "‰ du couple nominal",
+      "scale": 1.0,
+      "dtype": 6,
+      "fc": 3,
+      "value": null
+    },
+    {
+      "address": "6073h.0",
+      "name": "Courant maximal",
+      "unit": "‰ du courant nominal",
+      "scale": 1.0,
+      "dtype": 6,
+      "fc": 3,
+      "value": null
+    },
+    {
+      "address": "6075h.0",
+      "name": "Courant nominal du moteur",
+      "unit": "A",
+      "scale": 0.001,
+      "dtype": 7,
+      "fc": 3,
+      "value": null
+    },
+    {
+      "address": "6076h.0",
+      "name": "Couple nominal du moteur",
+      "unit": "Nm",
+      "scale": 0.001,
+      "dtype": 7,
+      "fc": 3,
+      "value": null
+    },
+    {
+      "address": "6077h.0",
+      "name": "Couple mesuré",
+      "unit": "‰ du couple nominal",
+      "scale": 1.0,
+      "dtype": 3,
+      "fc": 3,
+      "value": null
+    },
+    {
+      "address": "6078h.0",
+      "name": "Courant mesuré",
+      "unit": "‰ du courant nominal",
+      "scale": 1.0,
+      "dtype": 3,
+      "fc": 3,
+      "value": null
+    },
+    {
+      "address": "6079h.0",
+      "name": "Tension du bus continu",
+      "unit": "V",
+      "scale": 0.001,
+      "dtype": 7,
+      "fc": 3,
+      "value": null
+    },
+    {
+      "address": "607Eh.0",
+      "name": "Polarité (sens de rotation)",
+      "unit": "",
+      "scale": 1.0,
+      "dtype": 5,
+      "fc": 3,
+      "value": null
+    },
+    {
+      "address": "607Fh.0",
+      "name": "Vitesse maximale de profil",
+      "unit": "unités de vitesse",
+      "scale": 1.0,
+      "dtype": 7,
+      "fc": 3,
+      "value": null
+    },
+    {
+      "address": "6080h.0",
+      "name": "Vitesse maximale du moteur",
+      "unit": "tr/min",
+      "scale": 1.0,
+      "dtype": 7,
+      "fc": 3,
+      "value": null
+    },
+    {
+      "address": "6083h.0",
+      "name": "Accélération de profil",
+      "unit": "unités d'accélération",
+      "scale": 1.0,
+      "dtype": 7,
+      "fc": 3,
+      "value": null
+    },
+    {
+      "address": "6084h.0",
+      "name": "Décélération de profil",
+      "unit": "unités d'accélération",
+      "scale": 1.0,
+      "dtype": 7,
+      "fc": 3,
+      "value": null
+    },
+    {
+      "address": "6085h.0",
+      "name": "Décélération d'arrêt rapide",
+      "unit": "unités d'accélération",
+      "scale": 1.0,
+      "dtype": 7,
+      "fc": 3,
+      "value": null
+    },
+    {
+      "address": "60FFh.0",
+      "name": "Vitesse demandée",
+      "unit": "unités de vitesse",
+      "scale": 1.0,
+      "dtype": 4,
+      "fc": 3,
+      "value": null
+    }
+  ],
+  "link": {
+    "node": 1
+  },
+  "profile": "cia402",
+  "device": ""
+}

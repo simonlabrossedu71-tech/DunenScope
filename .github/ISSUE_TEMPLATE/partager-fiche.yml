@@ -1,0 +1,34 @@
+name: "Partager une fiche · Share a profile"
+description: "Proposez votre fiche DunenScope pour la bibliothèque en ligne. · Offer your DunenScope profile for the online library."
+title: "[Fiche] "
+labels: ["fiche partagée"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **FR** — Une fiche décrit un modèle : protocole, liaison, noms, unités et échelles des lignes. Elle est relue avant d'entrer dans la bibliothèque. Les valeurs qu'elle contient ne sont jamais reprises par les autres utilisateurs.
+        **EN** — A profile describes a model: protocol, link, names, units and scales of the rows. It is reviewed before entering the library. The values it contains are never used by other users.
+
+        Dans DunenScope : **Ouvrir une fiche… → Bibliothèque en ligne… → Partager ma fiche…** prépare un **.zip** sans valeurs ni numéro d'appareil, à joindre ci-dessous.
+        In DunenScope: **Open a profile… → Online library… → Share my profile…** prepares a **.zip** without values or device number, to attach below.
+
+        ⚠️ Les fichiers joints sont **publics**. · Attachments are **public**.
+  - type: input
+    id: modele
+    attributes:
+      label: "Fabricant et modèle · Manufacturer and model"
+      placeholder: "ex. Schneider ATV320, Nanotec PD4-E, Sevcon Gen4…"
+    validations:
+      required: true
+  - type: textarea
+    id: fiche
+    attributes:
+      label: "Fiche (.zip) · Profile (.zip)"
+      placeholder: "Glissez votre fichier ici · Drop your file here"
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: "Remarques · Notes"
+      description: "Version du logiciel du contrôleur, ce qui a été vérifié, ce qui reste incertain. · Controller firmware version, what was checked, what is still uncertain."

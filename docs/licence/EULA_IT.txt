@@ -10,6 +10,9 @@ completa è concessa secondo la licenza acquistata (a vita o in abbonamento), pe
 2. Divieti
 È vietato copiare il software oltre la licenza acquistata, condividere una chiave, noleggiarlo, rivenderlo,
 decompilarlo, disassemblarlo, modificarlo o aggirarne le misure di protezione.
+Ciò non si applica ai componenti liberi forniti con DunenScope ed elencati in THIRD_PARTY_LICENSES.txt
+(Qt, PySide6, python-can, libusb…): è possibile sostituirli con una versione modificata ed eseguire il reverse
+engineering necessario per correggerla, secondo le rispettive licenze.
 
 3. Sicurezza delle macchine
 DunenScope può modificare le impostazioni di un controllore motore e far girare un motore. L'utente è l'unico

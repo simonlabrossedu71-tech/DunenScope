@@ -3,101 +3,113 @@
 <p align="center"><a href="README.md">English</a> · <a href="README.fr.md">Français</a> · <a href="README.zh.md">中文</a> · <a href="README.es.md">Español</a> · <b>Deutsch</b> · <a href="README.it.md">Italiano</a> · <a href="README.pt.md">Português (BR)</a> · <a href="README.ru.md">Русский</a> · <a href="README.ja.md">日本語</a> · <a href="README.ko.md">한국어</a></p>
 
 <p align="center"><a href="https://github.com/simonlabrossedu71-tech/DunenScope/releases/latest"><img src="docs/images/download_de.png" alt="Für Windows herunterladen" height="60"></a></p>
-<p align="center"><sub>Windows 10 / 11 · 64 Bit · kostenloser Demomodus</sub></p>
+<p align="center"><sub>Windows 10 / 11 · 64 Bit · Lesen kostenlos</sub></p>
 
-## Diagnose- und Inbetriebnahmesoftware für Dunen / ELYX-Motorcontroller
+## Diagnose und Einstellung von Motorcontrollern, Antrieben und Batterien
 
-DunenScope macht aus einem Windows-PC und einem CAN-Adapter einen vollständigen Prüfstand für Dunen / ELYX-Controller: sehen, was die Maschine tut, verstehen, was sie begrenzt, sie einstellen und beweisen, dass sie funktioniert — in Minuten und in Ihrer Sprache.
+DunenScope macht aus einem Windows-PC und einem CAN-, USB- oder RS-485-Adapter einen Diagnose- und Einstellplatz: Dunen-Controller, mit VESC® Software kompatible Controller, CANopen®- und Modbus-Antriebe, Kelly, Curtis, Sevcon, BMS und Ladegeräte. Es erklärt jeden Fehler, speichert, was kurz davor geschah, richtet die Maschine Schritt für Schritt ein und erstellt das Inbetriebnahmeprotokoll.
 
-<p align="center"><img src="docs/images/de/dashboard.png" alt="Übersicht" width="100%"></p>
+## Das Video (46 s)
+
+<p align="center"><a href="docs/video/DunenScope_presentation_en.mp4"><img src="docs/video/apercu_en.webp" alt="Das Video (46 s)" width="720"></a><br><a href="docs/video/DunenScope_presentation_en.mp4">Ganzes Video mit Ton ansehen (MP4)</a></p>
+
+## Was es lesen und einstellen kann
+
+Wählen Sie das Gerät auf der Seite **Anderes Gerät** (oder lassen Sie DunenScope einen Dunen erkennen):
+
+**Motorcontroller**
+
+- **Dunen / ELYX** — 446 Parameter, Einstellung, geführte Inbetriebnahme, Motortests, PI-Einstellung
+- **Kompatibel mit VESC® Software** — über USB oder CAN: Einstellung, geführte Inbetriebnahme, Motorerkennung
+- **Kelly KLS-D, KAC, KBL / KHB** — über CAN oder serielle Verbindung: Messwerte und Fehler
+- **Votol EM, Fardriver, Bafang (M-Motoren), ODrive** — Messwerte und Fehler
+
+**Industrieantriebe**
+
+- **CANopen®-Antriebe CiA 402** — Nanotec, Leadshine…: Objekte aus dem Profil oder der EDS-Datei, Einstellung, Motortest
+- **Curtis 1232E bis 1239E, Sevcon Gen4** — CANopen, nur Lesen: Messwerte und Fehler
+- **Modbus RTU und TCP** — Schneider ATV320, ASI BAC / Phaserunner, Sabvoton…: Register, Spulen und Eingänge
+
+**Batterien und Ladegeräte**
+
+- **BMS JK, Daly, JBD / Xiaoxiang, Wechselrichter-Protokoll** — Zellen, Temperaturen, Strom, Ladezustand, Alarme
+- **Pylontech-Batterien (RS-485), Ladegeräte Elcon / TC** — nur Lesen
+- **Victron VE.Direct** — Solarladeregler, Ladegeräte, BMV und SmartShunt: nur Mithören
+
+**Maschinen und CAN-Bus**
+
+- **J1939-Maschinen** — Verbrennungsmotor, aktive Fehler
+- **DBC-Datei** — jeder CAN-Bus, der durch eine DBC-Datei beschrieben ist (Orion BMS 2…)
+
+Ihr Gerät fehlt? Senden Sie seine Kommunikationsunterlagen (Protokollhandbuch, EDS, Registerliste, CAN-Trace) über das Formular [Mein Gerät hinzufügen](https://github.com/simonlabrossedu71-tech/DunenScope/issues/new?template=nouveau-controleur.yml).
 
 ## Was DunenScope kann
 
-- **Inbetriebnahme** — eine neue Maschine Schritt für Schritt, wie bei VESC: Motor, Controller und Batterie, Pedalkalibrierung, Maschine, Schreiben, Geber-Nullpunkt, 5-s-Testdrehung für die Richtung, PI-Einstellung.
-- **Einstellungen im Klartext** — der ganze Controller nach Kategorien, in den Einheiten der Maschine (Sekunden, %, km/h, L/min, m/min), mit Pedalkurven, die man mit der Maus zieht.
-- **Anstecken und verbinden** — CAN-Adapter, Bitrate und Controller-Adresse werden automatisch gefunden, das Modell wird erkannt.
-- **Einfache Einstellung** — ein paar Fragen (Batterie, Drehzahl, Fahrgefühl): die Einstellungen werden berechnet und in der Liste vorbereitet, mit Hilfe zu jedem Parameter und Plausibilitätsprüfung vor dem Schreiben.
-- **Andere Controller** — für ein Modell, das DunenScope noch nicht kennt: Protokoll wählen, antwortende Register suchen, benennen, als Kurve anzeigen und ein Modellprofil speichern.
-- **Schreiben Sie uns aus der App** — die Schaltfläche Hilfe sendet Ihr Problem, Ihre Idee oder Frage direkt an den Herausgeber; Fehlerberichte nur mit Ihrer Zustimmung.
-- **Live-Übersicht** — Drehzahl, Drehmoment, Batteriespannung und -strom, Gashebel, Leistung, Temperaturen, Zustand und Fehler auf einem Bildschirm; Pumpenförderstrom oder Fahrzeuggeschwindigkeit aus Ihrem Maschinenprofil.
-- **„Warum ist es begrenzt?“** — zeigt, welche Grenze gerade wirkt (Drehmoment, Batteriestrom, Drehzahl, Spannung) und wie lange; Innenwiderstand und Reserven der Batterie; Verdrahtungsprüfung jedes Eingangs; verbleibende Zeit bis zur thermischen Reduzierung; Analyse des letzten Fehlers.
-- **Echtzeit-Verläufe** — sechs synchronisierte Diagramme plus ein freies Diagramm mit 4 beliebigen Variablen, CSV-Aufzeichnung.
-- **Alle 446 Parameter** — dieselben Zeilennummern wie DunenConfiger, Suche, Vergleich mit einer Datei, xlsx-Export zum Reimport in DunenConfiger, CSV.
-- **Sicheres Schreiben** — automatische vollständige Sicherung vor jedem Schreiben, Rücklesen, gefährliche Parameter gesperrt, Motor muss stehen, Speicherung im Festspeicher wie bei DunenConfiger.
-- **Drehzahl-PI-Einstellung** — Messung an der Maschine, schrittweise manuelle Einstellung mit Hinweisen und automatische Einstellung.
-- **Motortests** — vorgegebene Drehzahl oder vorgegebenes Drehmoment, automatisches Einlernen des Geberwinkels, Stromregelkreis; STOPP / Esc und automatischer Halt.
-- **Werkstattwerkzeuge** — Support-Paket mit einem Klick (.zip), Kalibrierassistent für den Gashebel, Bandendetest mit Bericht und Produktionsprotokoll.
-- **Für den Einsatz vor Ort** — 10 Sprachen, Adapter PEAK PCAN-USB, Kvaser, IXXAT, Vector und SLCAN, Anwendungsprofile und ein Simulationsmodus, um alles ohne Hardware auszuprobieren.
+- **Geführte Inbetriebnahme** — eine neue Maschine Schritt für Schritt: Batterie, Motor, Grenzwerte, Sicherheit, Drehrichtung; jede Einstellung mit aktuellem Wert, Grenzen und praktischem Gegenwert.
+- **Diagnose, die erklärt** — jeder Fehler jeder Marke mit wahrscheinlicher Ursache und Prüfhinweisen; die Blackbox speichert die 20 Sekunden vor jedem Fehler; mehrere Controller am selben Bus gemeinsam überwacht.
+- **Oszilloskop** — vier Kanäle, Trigger auf Schwelle oder beim Auftreten eines Fehlers, Vorlauf vor dem Trigger, Cursor, CSV-Export.
+- **CAN-Analysator** — hört den Bus mit, ohne etwas zu senden, und zeigt, was jeder Frame ist (CANopen, VESC-kompatibel, Kelly, Dunen, J1939); Buslast, Aufzeichnung für Excel.
+- **Inbetriebnahmeprotokoll** — ein PDF für den Kunden: Controller, Messwerte, alle Einstellungen, abgehakte Prüfungen und Unterschriftsfelder.
+- **Übersicht und Kurven** — Drehzahl, Drehmoment, Spannung, Strom, Temperaturen, Zustand und Fehler live; Echtzeitkurven, CSV-Aufzeichnung.
+- **Sicherung und sicheres Schreiben** — automatische Sicherung vor jedem Schreiben, Rücklesen, Motor im Stillstand, Rückgängig; Maschine Zeile für Zeile mit einem Profil vergleichen.
+- **Online-Bibliothek** — das von anderen geteilte Profil eines Modells öffnen (Namen, Einheiten, Skalierungen) oder Ihr eigenes teilen, immer ohne Werte.
+- **Für Dunen-Controller** — alle 446 Parameter mit den Nummern aus DunenConfiger, Einstellungen im Klartext in den Einheiten der Maschine, Einfache Einstellung, „Warum ist es begrenzt?“, Motortests und PI-Einstellung, Bandendetest.
+- **Simulation und zehn Sprachen** — alles ohne Hardware ausprobieren, Fehler inklusive; Oberfläche und Fehlererklärungen gibt es in 10 Sprachen.
 
 ## Bildschirmfotos
 
 <table>
-<tr><td width="50%" align="center"><img src="docs/images/de/setup_wizard.png" alt="Inbetriebnahme: eine neue Maschine Schritt für Schritt"><br><sub>Inbetriebnahme: eine neue Maschine Schritt für Schritt</sub></td><td width="50%" align="center"><img src="docs/images/de/settings.png" alt="Einstellungen im Klartext, in den Einheiten der Maschine"><br><sub>Einstellungen im Klartext, in den Einheiten der Maschine</sub></td></tr>
-<tr><td width="50%" align="center"><img src="docs/images/de/diagnostic.png" alt="Diagnose — was die Maschine begrenzt"><br><sub>Diagnose — was die Maschine begrenzt</sub></td><td width="50%" align="center"><img src="docs/images/de/realtime.png" alt="Echtzeit-Verläufe und PI-Einstellassistent"><br><sub>Echtzeit-Verläufe und PI-Einstellassistent</sub></td></tr>
-<tr><td width="50%" align="center"><img src="docs/images/de/parameters.png" alt="Parameter — vergleichen, schreiben, exportieren"><br><sub>Parameter — vergleichen, schreiben, exportieren</sub></td><td width="50%" align="center"><img src="docs/images/de/licence.png" alt="Lizenzfenster"><br><sub>Lizenzfenster</sub></td></tr>
+<tr><td width="50%" align="center"><img src="docs/images/de/vue_ensemble.webp" alt="Gesamtansicht: erklärte Fehler, mehrere Controller am Bus"><br><sub>Gesamtansicht: erklärte Fehler, mehrere Controller am Bus</sub></td><td width="50%" align="center"><img src="docs/images/de/oscilloscope.webp" alt="Oszilloskop: vier Größen rund um ein Ereignis aufgezeichnet"><br><sub>Oszilloskop: vier Größen rund um ein Ereignis aufgezeichnet</sub></td></tr>
+<tr><td width="50%" align="center"><img src="docs/images/de/analyseur.webp" alt="CAN-Analysator: jeder Frame erkannt"><br><sub>CAN-Analysator: jeder Frame erkannt</sub></td><td width="50%" align="center"><img src="docs/images/de/canopen.webp" alt="Anderes Gerät: ein CANopen-Antrieb CiA 402"><br><sub>Anderes Gerät: ein CANopen-Antrieb CiA 402</sub></td></tr>
+<tr><td width="50%" align="center"><img src="docs/images/de/mise_en_route.webp" alt="Geführte Inbetriebnahme eines VESC-kompatiblen Controllers"><br><sub>Geführte Inbetriebnahme eines VESC-kompatiblen Controllers</sub></td><td width="50%" align="center"><img src="docs/images/de/rapport.webp" alt="Inbetriebnahmeprotokoll als PDF"><br><sub>Inbetriebnahmeprotokoll als PDF</sub></td></tr>
+<tr><td width="50%" align="center"><img src="docs/images/de/dashboard.webp" alt="Übersicht eines Dunen-Controllers"><br><sub>Übersicht eines Dunen-Controllers</sub></td><td width="50%" align="center"><img src="docs/images/de/settings.webp" alt="Einstellungen eines Dunen, in den Einheiten der Maschine"><br><sub>Einstellungen eines Dunen, in den Einheiten der Maschine</sub></td></tr>
 </table>
 
-## Kostenloser Demomodus oder Vollversion
+## Lesen kostenlos, Vollversion zum Einstellen
 
-| Funktion | Demo (kostenlos) | Vollversion |
+| Funktion | Demoversion (kostenlos) | Vollversion |
 | --- | :---: | :---: |
-| Verbinden, alle Parameter lesen, Übersicht, Verläufe | ✅ | ✅ |
-| Diagnose, Fehlerspeicher, Bandendetest, Exporte, Support-Paket | ✅ | ✅ |
-| Simulationsmodus mit allen Funktionen | ✅ | ✅ |
-| Automatische Updates | ✅ | ✅ |
-| Einstellungen in einen echten Controller schreiben | — | ✅ |
-| Motortests, PI-Einstellung, Gashebel-Kalibrierung | — | ✅ |
+| Verbinden, alle Einstellungen lesen, Übersicht, Kurven | ✅ | ✅ |
+| Diagnose, Fehlerprotokoll und Blackbox, Oszilloskop, CAN-Analysator | ✅ | ✅ |
+| Vollständiger Simulationsmodus, Updates | ✅ | ✅ |
+| Einstellungen in den Controller schreiben, geführte Inbetriebnahme | — | ✅ |
+| Motortests, PI-Einstellung, Pedalkalibrierung | — | ✅ |
 
-### Vollversion
-
-**Dauerlizenz 50 €** · **Jahresabonnement 20 €** · **Quartalsabonnement 7 €**. Ein Schlüssel pro PC, in Sekunden über die Schaltfläche **Lizenz** (oben rechts) aktiviert. Funktioniert nach der Aktivierung ohne Internet.
+**Dauerlizenz 50 €** · **Jahresabonnement 20 €** · **Quartalsabonnement 7 €**. Ein Schlüssel pro PC, in Sekunden über die Schaltfläche **Lizenz** aktiviert. Funktioniert nach der Aktivierung ohne Internet.
 
 **Online kaufen:** [Dauerhaft — 50 €](https://buy.polar.sh/polar_cl_qO94LG8UMUEZitzRuoHexlgbRA5yJC3UlaF5C1Fv4O9) · [Jährlich — 20 €/Jahr](https://buy.polar.sh/polar_cl_St8xQg80RzRuOiugr63Lz4lFQkZ8MM2BkT6Jx1tNVVB) · [Vierteljährlich — 7 €/Quartal](https://buy.polar.sh/polar_cl_vjvXcXdimxbXQ3JzsfKf5UKQlYK8jFWHVp7yw0nHOmJ)
 
-Der Schlüssel kommt per E-Mail: in DunenScope unter **Lizenz** → **Aktivieren** einfügen.
-
-<sub>Abos: eine Internetverbindung alle 45 Tage genügt.</sub>
+Der Schlüssel kommt per E-Mail: DunenScope → **Lizenz** → Schlüssel einfügen → **Aktivieren**. Abonnements gehen alle 45 Tage einmal online.
 
 ## Erste Schritte
 
 1. Laden Sie **DunenScope_Setup** unter [Releases](https://github.com/simonlabrossedu71-tech/DunenScope/releases/latest) herunter und starten Sie es. Zeigt Windows „Der Computer wurde durch Windows geschützt“, klicken Sie auf *Weitere Informationen* → *Trotzdem ausführen*.
-2. Wählen Sie Ihre Sprache. Das Installationsprogramm bietet den PEAK-Treiber an, falls er fehlt.
-3. Schließen Sie den CAN-Adapter an den Controller an und schalten Sie die Zündung ein.
-4. Auf **Verbinden** klicken: DunenScope findet Adapter, Bitrate und Knoten selbst. Noch keine Hardware? **Simulation** wählen.
-5. Vollversion: Schaltfläche **Lizenz** → Schlüssel einfügen → **Aktivieren**.
+2. Schließen Sie den Adapter an das Gerät an und schalten Sie es ein.
+3. Ein Dunen wird automatisch gefunden → **Verbinden**. Für eine andere Marke: Seite **Anderes Gerät**, Protokoll wählen → **Verbinden**.
+4. Noch keine Hardware? Wählen Sie **Simulation**: Alles wird gezeigt, ohne etwas anzuschließen.
 
-## Voraussetzungen
+## Benötigte Hardware
 
 - Windows 10 oder 11, 64 Bit.
-- Ein CAN-Adapter: PEAK PCAN-USB (empfohlen), Kvaser, IXXAT, Vector oder SLCAN (CANable…).
-- Ein Dunen / ELYX-Controller mit dem DunenConfiger-Protokoll (Modbus über CAN, standardmäßig 250 kbit/s).
-
-## Ihre Steuerung wird noch nicht unterstützt?
-
-DunenScope lässt sich an jede Motorsteuerung anpassen, die über CAN, CANopen, Modbus (RS-485 oder TCP) oder eine dokumentierte serielle Verbindung kommuniziert. Schicken Sie uns ihre Kommunikationsdateien: Wir nehmen sie in die Software auf.
-
-1. Anfrage stellen: **[Meine Steuerung hinzufügen](https://github.com/simonlabrossedu71-tech/DunenScope/issues/new?template=nouveau-controleur.yml)** (kostenloses GitHub-Konto).
-2. Hängen Sie an, was Sie haben – je mehr, desto schneller:
-   - das **Handbuch** der Steuerung, vor allem das Kapitel zur Kommunikation (PDF);
-   - die **Beschreibung der Kommunikation**: EDS- oder XDD-Datei (CANopen), Modbus-Registertabelle (Adresse, Typ, Skalierung, Einheit, Lesen/Schreiben), DBC-Datei oder Beschreibung der CAN-Telegramme, serielles Protokoll;
-   - die **Liste der Fehlercodes** und ihre Bedeutung;
-   - wenn möglich: einen Export der Einstellungen aus der Herstellersoftware und einen CAN-Mitschnitt (candump, PCAN-View-Trace) mit stehendem, laufendem Motor und im Fehlerfall.
-3. Wir antworten in der Anfrage, in Ihrer Sprache, meist innerhalb einer Woche, und fragen nach, was fehlt. Sobald die Unterstützung fertig ist, kommt sie mit einem DunenScope-Update.
-
-<sub>An eine GitHub-Anfrage angehängte Dateien sind öffentlich: Hängen Sie kein Dokument an, das einer Geheimhaltungsvereinbarung unterliegt – erwähnen Sie es einfach in der Anfrage. GitHub akzeptiert nicht jeden Dateityp: Legen Sie .eds-, .xdd-, .dbc- und ähnliche Dateien in eine .zip-Datei.</sub>
+- Ein CAN-Adapter: PEAK PCAN-USB (empfohlen), Kvaser, IXXAT, Vector, CANable oder candleLight.
+- Je nach Gerät: das USB-Kabel eines VESC-kompatiblen Controllers, ein USB-RS485-Adapter (Modbus, BMS, Pylontech) oder ein VE.Direct-USB-Kabel (Victron).
 
 ## Handbücher
 
-Vollständige Handbücher (PDF), auch im Startmenü installiert:
+Vollständige Handbücher (PDF), auch mit der Software installiert:
 
-- [English (PDF)](docs/manuals/DunenScope_Manual_EN.pdf) · [Français (PDF)](docs/manuals/DunenScope_Notice_FR.pdf) · [中文 (PDF)](docs/manuals/DunenScope_Manual_ZH.pdf)
+- [Français (PDF)](docs/manuals/DunenScope_Notice_FR.pdf) · [English (PDF)](docs/manuals/DunenScope_Manual_EN.pdf) · [中文 (PDF)](docs/manuals/DunenScope_Manual_ZH.pdf)
 
-## Updates und Sicherheit
+## Updates und Daten
 
 - Jedes Installationsprogramm ist signiert; DunenScope prüft die Signatur vor der Installation eines Updates.
-- Neue Versionen werden allen Nutzern beim Start kostenlos angeboten; Einstellungen, Profile und Sicherungen bleiben erhalten.
-- DunenScope kontaktiert nur den Lizenzdienst und den Download-Server. Keine anderen Daten verlassen Ihren PC.
+- Neue Versionen werden beim Start kostenlos angeboten; Einstellungen, Profile und Sicherungen bleiben erhalten.
+- DunenScope kontaktiert nur den Lizenzdienst, den Update-Server und, wenn Sie sie öffnen, die Online-Bibliothek; Nachrichten über die Schaltfläche Hilfe und Fehlerberichte werden nur mit Ihrer Zustimmung gesendet.
 
-## Lizenz und Sicherheitshinweise
+## Lizenz und Sicherheit
 
-Mit der Installation von DunenScope akzeptieren Sie den [Endbenutzer-Lizenzvertrag](docs/licence/EULA_DE.txt). DunenScope kann die Einstellungen eines Controllers ändern und einen Motor drehen lassen: Arbeiten Sie nur an gesicherten Maschinen und mit qualifiziertem Personal. Dunen und ELYX sind Marken ihrer jeweiligen Inhaber.
+Mit der Installation von DunenScope akzeptieren Sie den [Endbenutzer-Lizenzvertrag](docs/licence/EULA_DE.txt). DunenScope kann die Einstellungen eines Controllers ändern und einen Motor drehen lassen: Arbeiten Sie nur an gesicherten Maschinen und mit qualifiziertem Personal. Die mit der Software gelieferten freien Komponenten (Qt, PySide6, python-can, libusb…) behalten ihre eigenen Lizenzen, aufgeführt in THIRD_PARTY_LICENSES.txt im Installationsordner.
+
+<sub>DunenScope ist weder mit dem VESC-Projekt verbunden noch von ihm unterstützt. CANopen® ist eine eingetragene Marke von CAN in Automation. Dunen, ELYX, Kelly, Curtis, Sevcon, Victron, Pylontech und die übrigen genannten Marken gehören ihren jeweiligen Inhabern.</sub>
+
+<sub>Herausgegeben von ORDA Engineering SAS, Saint-Étienne, Frankreich.</sub>

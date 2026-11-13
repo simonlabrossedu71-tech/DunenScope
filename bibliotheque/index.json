@@ -1,0 +1,42 @@
+[
+  {
+    "fichier": "bibliotheque/fiches/cia402_standard.dsfiche.json",
+    "marque": "CANopen",
+    "modele": "CiA 402",
+    "protocole": "canopen",
+    "lignes": 23,
+    "description": "Objets communs à tous les variateurs CiA 402 : état, défaut, mode, vitesse, couple, limites, rampes. — Objects shared by all CiA 402 drives: status, fault, mode, speed, torque, limits, ramps."
+  },
+  {
+    "fichier": "bibliotheque/fiches/nanotec_pd4e.dsfiche.json",
+    "marque": "Nanotec",
+    "modele": "PD4-E",
+    "protocole": "canopen",
+    "lignes": 14,
+    "description": "Objets CiA 402 et objets Nanotec : courants Id et Iq, tensions, température de la carte. — CiA 402 objects and Nanotec objects: Id and Iq currents, voltages, board temperature."
+  },
+  {
+    "fichier": "bibliotheque/fiches/schneider_atv320.dsfiche.json",
+    "marque": "Schneider",
+    "modele": "Altivar ATV320",
+    "protocole": "modbus_rtu",
+    "lignes": 9,
+    "description": "Mot d'état ETA, vitesse, courant, couple, tension réseau, dernier défaut, compteurs Modbus. — ETA status word, speed, current, torque, mains voltage, last fault, Modbus counters."
+  },
+  {
+    "fichier": "bibliotheque/fiches/asi_bac_phaserunner.dsfiche.json",
+    "marque": "ASI / Grin",
+    "modele": "BAC, Phaserunner",
+    "protocole": "modbus_rtu",
+    "lignes": 10,
+    "description": "Défauts, régime, courants, tension, températures, accélérateur, charge. — Faults, speed, currents, voltage, temperatures, throttle, state of charge."
+  },
+  {
+    "fichier": "bibliotheque/fiches/sabvoton_svmc.dsfiche.json",
+    "marque": "Sabvoton / MQCON",
+    "modele": "SVMC",
+    "protocole": "modbus_rtu",
+    "lignes": 10,
+    "description": "Régime, courants, tension, températures, accélérateur, états. — Speed, currents, voltage, temperatures, throttle, states."
+  }
+]

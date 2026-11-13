@@ -1,0 +1,99 @@
+{
+  "format": "dunenscope-fiche/1",
+  "brand": "Schneider",
+  "model": "Altivar ATV320",
+  "protocol": "modbus_rtu",
+  "tx_id": 1538,
+  "rx_id": 1746,
+  "width": 32,
+  "signed": true,
+  "registers": [
+    {
+      "address": 3201,
+      "name": "Mot d'état (ETA)",
+      "unit": "",
+      "scale": 1.0,
+      "dtype": "u16",
+      "fc": 3,
+      "value": null
+    },
+    {
+      "address": 8604,
+      "name": "Vitesse du moteur (RFRD)",
+      "unit": "tr/min",
+      "scale": 1.0,
+      "dtype": "s16",
+      "fc": 3,
+      "value": null
+    },
+    {
+      "address": 3204,
+      "name": "Courant moteur (LCR)",
+      "unit": "A",
+      "scale": 0.1,
+      "dtype": "s16",
+      "fc": 3,
+      "value": null
+    },
+    {
+      "address": 3205,
+      "name": "Couple moteur (OTR)",
+      "unit": "%",
+      "scale": 1.0,
+      "dtype": "s16",
+      "fc": 3,
+      "value": null
+    },
+    {
+      "address": 3207,
+      "name": "Tension du réseau (ULN)",
+      "unit": "V",
+      "scale": 0.1,
+      "dtype": "u16",
+      "fc": 3,
+      "value": null
+    },
+    {
+      "address": 7121,
+      "name": "Dernier défaut (LFT)",
+      "unit": "",
+      "scale": 1.0,
+      "dtype": "u16",
+      "fc": 3,
+      "value": null
+    },
+    {
+      "address": 6005,
+      "name": "Délai de perte de communication Modbus (TTO)",
+      "unit": "s",
+      "scale": 0.1,
+      "dtype": "u16",
+      "fc": 3,
+      "value": null
+    },
+    {
+      "address": 6011,
+      "name": "Trames Modbus reçues (M1CT)",
+      "unit": "",
+      "scale": 1.0,
+      "dtype": "u16",
+      "fc": 3,
+      "value": null
+    },
+    {
+      "address": 6010,
+      "name": "Trames Modbus en erreur CRC (M1EC)",
+      "unit": "",
+      "scale": 1.0,
+      "dtype": "u16",
+      "fc": 3,
+      "value": null
+    }
+  ],
+  "link": {
+    "baudrate": 19200,
+    "parity": "E"
+  },
+  "profile": "schneider_atv320",
+  "device": ""
+}

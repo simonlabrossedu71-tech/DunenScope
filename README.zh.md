@@ -3,101 +3,113 @@
 <p align="center"><a href="README.md">English</a> · <a href="README.fr.md">Français</a> · <b>中文</b> · <a href="README.es.md">Español</a> · <a href="README.de.md">Deutsch</a> · <a href="README.it.md">Italiano</a> · <a href="README.pt.md">Português (BR)</a> · <a href="README.ru.md">Русский</a> · <a href="README.ja.md">日本語</a> · <a href="README.ko.md">한국어</a></p>
 
 <p align="center"><a href="https://github.com/simonlabrossedu71-tech/DunenScope/releases/latest"><img src="docs/images/download_zh.png" alt="下载 Windows 版" height="60"></a></p>
-<p align="center"><sub>Windows 10 / 11 · 64 位 · 免费体验模式</sub></p>
+<p align="center"><sub>Windows 10 / 11 · 64 位 · 免费读取</sub></p>
 
-## Dunen / ELYX 电机控制器诊断与调试软件
+## 电机控制器、驱动器和电池的诊断与调试
 
-DunenScope 让一台 Windows 电脑和一个 CAN 适配器成为 Dunen / ELYX 控制器的完整测试台：查看设备运行状态、了解限制因素、完成调校并验证效果——几分钟即可完成，并且支持您的语言。
+DunenScope 将一台 Windows 电脑和一个 CAN、USB 或 RS-485 适配器变成诊断与调试台：Dunen 控制器、兼容 VESC® Software 的控制器、CANopen® 和 Modbus 驱动器、Kelly、Curtis、Sevcon、BMS 和充电器。它解释每一个故障，保留故障发生前的情况，逐步完成整机设置，并生成调试报告。
 
-<p align="center"><img src="docs/images/zh/dashboard.png" alt="仪表盘" width="100%"></p>
+## 视频（46 秒）
+
+<p align="center"><a href="docs/video/DunenScope_presentation_en.mp4"><img src="docs/video/apercu_en.webp" alt="视频（46 秒）" width="720"></a><br><a href="docs/video/DunenScope_presentation_en.mp4">观看带声音的完整视频（MP4）</a></p>
+
+## 可读取和调试的设备
+
+在 **其他设备** 页面选择设备（或让 DunenScope 自动识别 Dunen）：
+
+**电机控制器**
+
+- **Dunen / ELYX** — 446 个参数、参数设置、调试向导、电机调试、PI 整定
+- **兼容 VESC® Software 的控制器** — 通过 USB 或 CAN：参数设置、调试向导、电机检测
+- **Kelly KLS-D、KAC、KBL / KHB** — 通过 CAN 或串口：测量值和故障
+- **Votol EM、Fardriver、Bafang（M 系列电机）、ODrive** — 测量值和故障
+
+**工业驱动器**
+
+- **CANopen® CiA 402 驱动器** — Nanotec、Leadshine…：规范或 EDS 文件中的对象、参数设置、电机调试
+- **Curtis 1232E 至 1239E、Sevcon Gen4** — CANopen，只读：测量值和故障
+- **Modbus RTU 和 TCP** — Schneider ATV320、ASI BAC / Phaserunner、Sabvoton…：寄存器、线圈和输入
+
+**电池和充电器**
+
+- **JK、Daly、JBD / Xiaoxiang BMS，逆变器协议** — 电芯、温度、电流、电量、报警
+- **Pylontech 电池（RS-485）、Elcon / TC 充电器** — 只读
+- **Victron VE.Direct** — 太阳能控制器、充电器、BMV 和 SmartShunt：仅监听
+
+**工程机械与 CAN 总线**
+
+- **J1939 机械** — 发动机、当前故障
+- **DBC 文件** — 任何由 DBC 文件描述的 CAN 总线（Orion BMS 2…）
+
+您的设备不在列表中？请通过 [添加我的设备](https://github.com/simonlabrossedu71-tech/DunenScope/issues/new?template=nouveau-controleur.yml) 表单发送其通信资料（协议手册、EDS、寄存器列表、CAN 记录）。
 
 ## DunenScope 的功能
 
-- **调试向导** — 像 VESC 一样逐步配置新整机：电机、控制器与电池、踏板标定、整机、写入、编码器零位、5 秒试转确认方向、PI 整定。
-- **通俗易懂的设置** — 按类别显示控制器全部设置，使用整机单位（秒、%、km/h、L/min、m/min），踏板曲线可用鼠标拖动修改。
-- **即插即连** — 自动找到 CAN 适配器、波特率和控制器地址，并识别控制器型号。
-- **快速设置** — 回答几个问题（电池、转速、驾驶感受），自动计算参数并在列表中准备好；每个参数都有说明，写入前进行一致性检查。
-- **其他控制器** — 对于 DunenScope 尚不支持的型号：选择协议，查找有响应的寄存器，为其命名、绘制曲线并保存型号档案。
-- **在软件中直接联系我们** — “帮助”按钮可将问题、想法或疑问直接发送给开发者；错误报告仅在您同意后发送。
-- **实时仪表盘** — 转速、扭矩、电池电压和电流、油门、功率、温度、状态和故障集中在一个界面；可按整机配置显示油泵流量或车速。
-- **“为什么受限？”** — 显示当前起作用的限制（扭矩、电池电流、转速、电压）及持续时间；电池内阻和余量；逐个检查输入接线；热降额剩余时间；分析最近一次故障。
-- **实时曲线** — 六个同步曲线，外加任选 4 个变量的自由曲线，支持 CSV 记录。
-- **全部 446 个参数** — 行号与 DunenConfiger 一致，可搜索、与文件对比、导出可重新导入 DunenConfiger 的 xlsx 以及 CSV。
-- **安全写入** — 每次写入前自动完整备份、回读校验、危险参数锁定、必须停机，并像 DunenConfiger 一样保存到永久存储。
-- **速度环 PI 整定** — 整机实测、带建议的手动阶跃整定，以及自动整定。
-- **电机调试** — 指定转速或扭矩、编码器角度自学习、电流环；STOP / Esc 及自动停止。
-- **车间工具** — 一键生成支持包（.zip）、油门标定助手、带报告和生产记录的下线检测。
-- **面向现场** — 10 种语言，支持 PEAK PCAN-USB、Kvaser、IXXAT、Vector 和 SLCAN 适配器，应用配置，以及无需硬件即可试用全部功能的仿真模式。
+- **调试向导** — 逐步设置一台新整机：电池、电机、限值、安全、旋转方向；每项设置都显示当前值、上下限及其实际对应值。
+- **会解释的诊断** — 各品牌的每个故障都附有可能原因和检查要点；黑匣子保存每次故障前 20 秒的数据；可同时监控同一总线上的多个控制器。
+- **示波器** — 四通道，可按阈值或在故障出现时触发，保留触发前数据，带光标，可导出 CSV。
+- **CAN 分析仪** — 只监听总线、不发送任何数据，并识别每一帧（CANopen、兼容 VESC、Kelly、Dunen、J1939）；显示总线负载，记录可用 Excel 打开。
+- **调试报告** — 可交给客户的 PDF：控制器、测量值、全部设置、已勾选的检查项和签名栏。
+- **仪表盘与曲线** — 实时显示转速、扭矩、电压、电流、温度、状态和故障；实时曲线，CSV 记录。
+- **备份与安全写入** — 每次写入前自动备份、回读校验、电机必须停止、可撤销；可将整机与型号档案逐行比较。
+- **在线资料库** — 打开他人分享的型号档案（名称、单位、比例），或分享您自己的档案，始终不含参数值。
+- **针对 Dunen** — 全部 446 个参数，编号与 DunenConfiger 一致；以整机单位显示的通俗设置；快速设置；“为什么受限？”；电机调试和 PI 整定；下线检测。
+- **模拟与十种语言** — 无需硬件即可试用全部功能，包括故障；界面和故障说明提供 10 种语言。
 
 ## 界面截图
 
 <table>
-<tr><td width="50%" align="center"><img src="docs/images/zh/setup_wizard.png" alt="调试向导：逐步配置新整机"><br><sub>调试向导：逐步配置新整机</sub></td><td width="50%" align="center"><img src="docs/images/zh/settings.png" alt="通俗易懂的设置，使用整机单位"><br><sub>通俗易懂的设置，使用整机单位</sub></td></tr>
-<tr><td width="50%" align="center"><img src="docs/images/zh/diagnostic.png" alt="诊断——限制设备的原因"><br><sub>诊断——限制设备的原因</sub></td><td width="50%" align="center"><img src="docs/images/zh/realtime.png" alt="实时曲线与 PI 整定助手"><br><sub>实时曲线与 PI 整定助手</sub></td></tr>
-<tr><td width="50%" align="center"><img src="docs/images/zh/parameters.png" alt="参数——对比、写入、导出"><br><sub>参数——对比、写入、导出</sub></td><td width="50%" align="center"><img src="docs/images/zh/licence.png" alt="“许可”窗口"><br><sub>“许可”窗口</sub></td></tr>
+<tr><td width="50%" align="center"><img src="docs/images/zh/vue_ensemble.webp" alt="总览：故障说明，总线上的多个控制器"><br><sub>总览：故障说明，总线上的多个控制器</sub></td><td width="50%" align="center"><img src="docs/images/zh/oscilloscope.webp" alt="示波器：围绕一个事件捕获的四个量"><br><sub>示波器：围绕一个事件捕获的四个量</sub></td></tr>
+<tr><td width="50%" align="center"><img src="docs/images/zh/analyseur.webp" alt="CAN 分析仪：识别每一帧"><br><sub>CAN 分析仪：识别每一帧</sub></td><td width="50%" align="center"><img src="docs/images/zh/canopen.webp" alt="其他设备：一台 CANopen CiA 402 驱动器"><br><sub>其他设备：一台 CANopen CiA 402 驱动器</sub></td></tr>
+<tr><td width="50%" align="center"><img src="docs/images/zh/mise_en_route.webp" alt="兼容 VESC 的控制器的调试向导"><br><sub>兼容 VESC 的控制器的调试向导</sub></td><td width="50%" align="center"><img src="docs/images/zh/rapport.webp" alt="PDF 调试报告"><br><sub>PDF 调试报告</sub></td></tr>
+<tr><td width="50%" align="center"><img src="docs/images/zh/dashboard.webp" alt="Dunen 控制器的仪表盘"><br><sub>Dunen 控制器的仪表盘</sub></td><td width="50%" align="center"><img src="docs/images/zh/settings.webp" alt="Dunen 的设置，使用整机单位"><br><sub>Dunen 的设置，使用整机单位</sub></td></tr>
 </table>
 
-## 免费体验模式或完整版
+## 免费读取，完整版用于调试
 
 | 功能 | 体验版（免费） | 完整版 |
 | --- | :---: | :---: |
-| 连接、读取全部参数、仪表盘、实时曲线 | ✅ | ✅ |
-| 诊断、故障记录、下线检测、导出、支持包 | ✅ | ✅ |
-| 仿真模式，全部功能开放 | ✅ | ✅ |
-| 自动更新 | ✅ | ✅ |
-| 向真实控制器写入参数 | — | ✅ |
-| 电机调试、PI 整定、油门标定 | — | ✅ |
+| 连接、读取全部设置、仪表盘、曲线 | ✅ | ✅ |
+| 诊断、故障日志和黑匣子、示波器、CAN 分析仪 | ✅ | ✅ |
+| 完整的模拟模式、更新 | ✅ | ✅ |
+| 将设置写入控制器、调试向导 | — | ✅ |
+| 电机调试、PI 整定、踏板标定 | — | ✅ |
 
-### 完整版
-
-**永久授权 50 €** · **年度订阅 20 €** · **季度订阅 7 €**。每个密钥对应一台电脑，点击右上角 **许可** 按钮几秒即可激活。激活后无需联网即可使用。
+**永久许可 50 €** · **年度订阅 20 €** · **季度订阅 7 €**。每台电脑一个密钥，通过 **许可** 按钮几秒即可激活。激活后无需联网即可使用。
 
 **在线购买：** [永久 — 50 €](https://buy.polar.sh/polar_cl_qO94LG8UMUEZitzRuoHexlgbRA5yJC3UlaF5C1Fv4O9) · [按年 — 20 €/年](https://buy.polar.sh/polar_cl_St8xQg80RzRuOiugr63Lz4lFQkZ8MM2BkT6Jx1tNVVB) · [按季度 — 7 €/季度](https://buy.polar.sh/polar_cl_vjvXcXdimxbXQ3JzsfKf5UKQlYK8jFWHVp7yw0nHOmJ)
 
-密钥通过电子邮件发送：在 DunenScope 中点击 **许可** → **激活** 粘贴即可。
-
-<sub>订阅版每 45 天联网验证一次即可。</sub>
+密钥通过电子邮件发送：DunenScope → **许可** → 粘贴密钥 → **激活**。订阅版每 45 天联网一次。
 
 ## 快速开始
 
 1. 在 [Releases](https://github.com/simonlabrossedu71-tech/DunenScope/releases/latest) 下载 **DunenScope_Setup** 并运行。如果 Windows 提示“Windows 已保护你的电脑”，请点击 *更多信息* → *仍要运行*。
-2. 选择语言。如缺少 PEAK 驱动，安装程序会提示安装。
-3. 将 CAN 适配器连接到控制器，并打开钥匙开关。
-4. 点击 **连接**：DunenScope 会自动找到适配器、波特率和节点。还没有硬件？选择 **模拟**。
-5. 完整版：点击 **许可** 按钮 → 粘贴密钥 → **激活**。
+2. 将适配器连接到设备并通电。
+3. Dunen 会被自动找到 → **连接**。其他品牌：在 **其他设备** 页面选择协议 → **连接**。
+4. 暂时没有硬件？选择 **模拟**：无需连接任何设备即可展示全部功能。
 
-## 系统要求
+## 所需硬件
 
 - Windows 10 或 11，64 位。
-- CAN 适配器：PEAK PCAN-USB（推荐）、Kvaser、IXXAT、Vector 或 SLCAN（CANable…）。
-- 使用 DunenConfiger 协议的 Dunen / ELYX 控制器（CAN 上的 Modbus，默认 250 kbit/s）。
-
-## 您的控制器尚未支持？
-
-DunenScope 可以适配任何通过 CAN、CANopen、Modbus（RS-485 或 TCP）或有文档说明的串口进行通信的电机控制器。把它的通信文件发给我们：我们会把它加入软件。
-
-1. 提交请求：**[添加我的控制器](https://github.com/simonlabrossedu71-tech/DunenScope/issues/new?template=nouveau-controleur.yml)**（需要免费的 GitHub 账号）。
-2. 附上您手头的资料——越全，进度越快：
-   - 控制器的**说明书**，尤其是通信章节（PDF）；
-   - **通信说明**：CANopen 的 EDS 或 XDD 文件、Modbus 寄存器表（地址、类型、比例、单位、读/写）、CAN 的 DBC 文件或报文说明、串口协议；
-   - **故障代码表**及各代码的含义；
-   - 如果可以：制造商软件导出的设置，以及电机停止、运行和故障时的 CAN 抓包（candump、PCAN-View 记录）。
-3. 我们会在请求中用您的语言答复，通常在一周内，并询问缺少的资料。支持完成后，会随 DunenScope 的更新一起提供。
-
-<sub>附在 GitHub 请求中的文件是公开的：请不要附上受保密协议约束的文件，只需在请求中说明即可。GitHub 并不接受所有文件类型：请把 .eds、.xdd、.dbc 等文件放进 .zip。</sub>
+- CAN 适配器：PEAK PCAN-USB（推荐）、Kvaser、IXXAT、Vector、CANable 或 candleLight。
+- 视设备而定：兼容 VESC 的控制器的 USB 线、USB-RS485 适配器（Modbus、BMS、Pylontech）或 VE.Direct-USB 线（Victron）。
 
 ## 使用说明
 
-完整使用说明（PDF），安装后也可在开始菜单中找到：
+完整使用说明（PDF），也随软件一起安装：
 
-- [English (PDF)](docs/manuals/DunenScope_Manual_EN.pdf) · [Français (PDF)](docs/manuals/DunenScope_Notice_FR.pdf) · [中文 (PDF)](docs/manuals/DunenScope_Manual_ZH.pdf)
+- [Français (PDF)](docs/manuals/DunenScope_Notice_FR.pdf) · [English (PDF)](docs/manuals/DunenScope_Manual_EN.pdf) · [中文 (PDF)](docs/manuals/DunenScope_Manual_ZH.pdf)
 
-## 更新与安全
+## 更新与数据
 
 - 每个安装程序都经过签名；DunenScope 在安装更新前会验证签名。
-- 所有用户在启动时都会免费收到新版本提示；设置、配置和备份都会保留。
-- DunenScope 只连接许可服务和下载服务器，不会有其他数据离开您的电脑。
+- 启动时免费提示新版本；设置、型号档案和备份都会保留。
+- DunenScope 只连接许可服务、更新服务器，以及在您打开时连接在线资料库；“帮助”按钮发出的消息和错误报告仅在您同意后发送。
 
-## 许可与安全须知
+## 许可与安全
 
-安装 DunenScope 即表示您接受[最终用户许可协议](docs/licence/EULA_ZH.txt)。DunenScope 可以修改控制器参数并驱动电机运转：请确保设备处于安全状态，并由合格人员操作。Dunen 和 ELYX 为其各自所有者的商标。
+安装 DunenScope 即表示您接受[最终用户许可协议](docs/licence/EULA_ZH.txt)。DunenScope 可以修改控制器设置并使电机运转：请确保设备处于安全状态，并由合格人员操作。随软件提供的开源组件（Qt、PySide6、python-can、libusb…）保留各自的许可证，列于安装文件夹中的 THIRD_PARTY_LICENSES.txt。
+
+<sub>DunenScope 与 VESC 项目无关联，也未获其认可。CANopen® 是 CAN in Automation 的注册商标。Dunen、ELYX、Kelly、Curtis、Sevcon、Victron、Pylontech 及文中提及的其他品牌归其各自所有者所有。</sub>
+
+<sub>发行方：ORDA Engineering SAS，法国圣艾蒂安（Saint-Étienne）。</sub>

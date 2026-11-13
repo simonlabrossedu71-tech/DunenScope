@@ -12,6 +12,9 @@ Schlüssel gewährt.
 Es ist untersagt, die Software über die erworbene Lizenz hinaus zu kopieren, einen Schlüssel weiterzugeben,
 sie zu vermieten, weiterzuverkaufen, zu dekompilieren, zu disassemblieren, zu verändern oder ihre
 Schutzmaßnahmen zu umgehen.
+Dies gilt nicht für die mit DunenScope gelieferten freien Komponenten, die in THIRD_PARTY_LICENSES.txt
+aufgeführt sind (Qt, PySide6, python-can, libusb…): Sie dürfen sie gemäß ihren Lizenzen durch eine geänderte
+Version ersetzen und das für deren Fehlersuche nötige Reverse Engineering durchführen.
 
 3. Maschinensicherheit
 DunenScope kann die Einstellungen eines Motorcontrollers ändern und einen Motor drehen lassen. Der Benutzer

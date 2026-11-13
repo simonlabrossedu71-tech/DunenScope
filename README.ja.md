@@ -3,101 +3,113 @@
 <p align="center"><a href="README.md">English</a> · <a href="README.fr.md">Français</a> · <a href="README.zh.md">中文</a> · <a href="README.es.md">Español</a> · <a href="README.de.md">Deutsch</a> · <a href="README.it.md">Italiano</a> · <a href="README.pt.md">Português (BR)</a> · <a href="README.ru.md">Русский</a> · <b>日本語</b> · <a href="README.ko.md">한국어</a></p>
 
 <p align="center"><a href="https://github.com/simonlabrossedu71-tech/DunenScope/releases/latest"><img src="docs/images/download_ja.png" alt="Windows 版をダウンロード" height="60"></a></p>
-<p align="center"><sub>Windows 10 / 11 · 64 ビット · 無料の体験モード</sub></p>
+<p align="center"><sub>Windows 10 / 11 · 64 ビット · 読み取りは無料</sub></p>
 
-## Dunen / ELYX モーターコントローラー用の診断・立ち上げソフトウェア
+## モーターコントローラー、ドライブ、バッテリーの診断と調整
 
-DunenScope は、Windows PC と CAN アダプターを Dunen / ELYX コントローラーの本格的なテストベンチに変えます。機械の動きを見て、何が制限しているかを理解し、調整し、正しく動くことを確認する——それを数分で、しかも母国語で。
+DunenScope は、Windows PC と CAN・USB・RS-485 アダプターを診断・調整ベンチに変えます。対象は Dunen コントローラー、VESC® Software 互換のコントローラー、CANopen® および Modbus ドライブ、Kelly、Curtis、Sevcon、BMS、充電器。すべての故障を説明し、その直前に起きたことを記録し、機械をステップごとに設定して、試運転報告書を作成します。
 
-<p align="center"><img src="docs/images/ja/dashboard.png" alt="ダッシュボード" width="100%"></p>
+## 動画（46 秒）
+
+<p align="center"><a href="docs/video/DunenScope_presentation_en.mp4"><img src="docs/video/apercu_en.webp" alt="動画（46 秒）" width="720"></a><br><a href="docs/video/DunenScope_presentation_en.mp4">音声付きの完全版動画を見る（MP4）</a></p>
+
+## 読み取り・調整できる機器
+
+**その他の機器** ページで機器を選びます（Dunen なら DunenScope が自動で認識します）：
+
+**モーターコントローラー**
+
+- **Dunen / ELYX** — 446 個のパラメーター、調整、セットアップウィザード、モーター試験、PI 調整
+- **VESC® Software 互換** — USB または CAN 経由：調整、セットアップウィザード、モーター検出
+- **Kelly KLS-D、KAC、KBL / KHB** — CAN またはシリアル通信経由：計測値と故障
+- **Votol EM、Fardriver、Bafang（M シリーズモーター）、ODrive** — 計測値と故障
+
+**産業用ドライブ**
+
+- **CANopen® CiA 402 ドライブ** — Nanotec、Leadshine…：プロファイルまたは EDS ファイルのオブジェクト、調整、モーター試験
+- **Curtis 1232E～1239E、Sevcon Gen4** — CANopen、読み取り専用：計測値と故障
+- **Modbus RTU および TCP** — Schneider ATV320、ASI BAC / Phaserunner、Sabvoton…：レジスター、コイル、入力
+
+**バッテリーと充電器**
+
+- **JK、Daly、JBD / Xiaoxiang の BMS、インバーター プロトコル** — セル、温度、電流、充電状態、アラーム
+- **Pylontech バッテリー（RS-485）、Elcon / TC 充電器** — 読み取り専用
+- **Victron VE.Direct** — ソーラー充電コントローラー、充電器、BMV、SmartShunt：受信のみ
+
+**建機・農機と CAN バス**
+
+- **J1939 車両** — エンジン、アクティブな故障
+- **DBC ファイル** — DBC ファイルで記述された任意の CAN バス（Orion BMS 2…）
+
+お使いの機器が見当たりませんか？ 通信資料（プロトコルマニュアル、EDS、レジスター一覧、CAN トレース）を [機器を追加](https://github.com/simonlabrossedu71-tech/DunenScope/issues/new?template=nouveau-controleur.yml) フォームからお送りください。
 
 ## DunenScope でできること
 
-- **セットアップウィザード** — VESC のように新しい機械をステップごとに設定：モーター、コントローラーとバッテリー、ペダルのキャリブレーション、機械、書き込み、エンコーダーのゼロ点、方向を確認する 5 秒の試運転、PI 調整。
-- **わかりやすい設定** — コントローラーのすべての設定をカテゴリー別に、機械の単位（秒、%、km/h、L/min、m/min）で表示。ペダルのカーブはマウスでドラッグして変更。
-- **つなぐだけで接続** — CAN アダプター、通信速度、コントローラーのアドレスを自動で検出し、型式を認識します。
-- **かんたん設定** — いくつかの質問（バッテリー、回転数、走行フィーリング）に答えるだけで設定値を計算して一覧に準備します。各パラメーターの説明と書き込み前の整合性チェック付き。
-- **その他のコントローラー** — DunenScope がまだ対応していない型式でも：プロトコルを選び、応答するレジスターを検索し、名前を付け、グラフで追跡し、型式プロファイルを保存できます。
-- **アプリから直接ご連絡を** — 「ヘルプ」ボタンで問題・アイデア・質問を発行元に直接送信できます。エラーレポートは同意した場合のみ送信されます。
-- **リアルタイムのダッシュボード** — 回転数、トルク、バッテリー電圧と電流、アクセル、出力、温度、状態、故障を 1 画面に表示。機械プロファイルに応じてポンプ流量や車速も表示します。
-- **「なぜ制限されている？」** — いま働いている制限（トルク、バッテリー電流、回転数、電圧）とその継続時間を表示。バッテリーの内部抵抗と余裕、各入力の配線チェック、熱による出力低減までの残り時間、直近の故障の解析。
-- **リアルタイムグラフ** — 6 つの同期グラフと、任意の 4 変数を選べるフリーグラフ。CSV 記録。
-- **446 個すべてのパラメーター** — DunenConfiger と同じ行番号、検索、ファイルとの比較、DunenConfiger に再インポートできる xlsx と CSV へのエクスポート。
-- **安全な書き込み** — 書き込みのたびに自動で完全バックアップ、読み戻し確認、危険なパラメーターはロック、モーター停止が必須、DunenConfiger と同様に不揮発メモリーへ保存。
-- **速度 PI 調整** — 機械での測定、アドバイス付きのステップごとの手動調整、そして自動調整。
-- **モーター試験** — 回転数またはトルクの指定、エンコーダー角度の自動学習、電流ループ。STOP / Esc と自動停止。
-- **作業場向けツール** — ワンクリックのサポートパッケージ（.zip）、アクセル校正アシスタント、レポートと生産記録付きの出荷検査。
-- **現場のために** — 10 言語、PEAK PCAN-USB・Kvaser・IXXAT・Vector・SLCAN アダプター、用途プロファイル、ハードウェアなしですべてを試せるシミュレーションモード。
+- **セットアップウィザード** — 新しい機械をステップごとに設定：バッテリー、モーター、制限値、安全、回転方向。各設定に現在値、範囲、わかりやすい換算値を表示します。
+- **説明してくれる診断** — あらゆるメーカーのすべての故障について、考えられる原因と確認すべき点を表示。ブラックボックスが各故障の直前 20 秒を記録。同じバス上の複数のコントローラーを同時に監視。
+- **オシロスコープ** — 4 チャンネル、しきい値または故障発生でトリガー、トリガー前のデータも保持、カーソル、CSV エクスポート。
+- **CAN アナライザー** — 何も送信せずにバスを受信し、各フレームの内容（CANopen、VESC 互換、Kelly、Dunen、J1939）を表示。バス負荷、Excel 用のトレース記録。
+- **試運転報告書** — お客様に渡せる PDF：コントローラー、計測値、全設定、チェック済みの確認項目、署名欄。
+- **ダッシュボードとグラフ** — 回転数、トルク、電圧、電流、温度、状態、故障をリアルタイム表示。リアルタイムグラフ、CSV 記録。
+- **バックアップと安全な書き込み** — 書き込みのたびに自動バックアップ、読み戻し確認、モーター停止が条件、元に戻す機能。機械とプロファイルを 1 行ずつ比較。
+- **オンラインライブラリー** — 他のユーザーが共有したモデルのプロファイル（名前、単位、スケール）を開いたり、自分のプロファイルを共有したりできます。値は常に含まれません。
+- **Dunen 向け** — DunenConfiger と同じ番号で 446 個すべてのパラメーター、機械の単位でわかりやすく表示される設定、かんたん設定、「なぜ制限されている？」、モーター試験と PI 調整、出荷検査。
+- **シミュレーションと 10 言語** — 故障を含め、すべてをハードウェアなしで試せます。画面と故障の説明は 10 言語に対応。
 
 ## スクリーンショット
 
 <table>
-<tr><td width="50%" align="center"><img src="docs/images/ja/setup_wizard.png" alt="セットアップウィザード：新しい機械をステップごとに設定"><br><sub>セットアップウィザード：新しい機械をステップごとに設定</sub></td><td width="50%" align="center"><img src="docs/images/ja/settings.png" alt="わかりやすい設定（機械の単位で表示）"><br><sub>わかりやすい設定（機械の単位で表示）</sub></td></tr>
-<tr><td width="50%" align="center"><img src="docs/images/ja/diagnostic.png" alt="診断——機械を制限しているもの"><br><sub>診断——機械を制限しているもの</sub></td><td width="50%" align="center"><img src="docs/images/ja/realtime.png" alt="リアルタイムグラフと PI 調整アシスタント"><br><sub>リアルタイムグラフと PI 調整アシスタント</sub></td></tr>
-<tr><td width="50%" align="center"><img src="docs/images/ja/parameters.png" alt="パラメーター——比較・書き込み・エクスポート"><br><sub>パラメーター——比較・書き込み・エクスポート</sub></td><td width="50%" align="center"><img src="docs/images/ja/licence.png" alt="ライセンス画面"><br><sub>ライセンス画面</sub></td></tr>
+<tr><td width="50%" align="center"><img src="docs/images/ja/vue_ensemble.webp" alt="概要：故障の説明、バス上の複数のコントローラー"><br><sub>概要：故障の説明、バス上の複数のコントローラー</sub></td><td width="50%" align="center"><img src="docs/images/ja/oscilloscope.webp" alt="オシロスコープ：イベント前後に記録した 4 つの量"><br><sub>オシロスコープ：イベント前後に記録した 4 つの量</sub></td></tr>
+<tr><td width="50%" align="center"><img src="docs/images/ja/analyseur.webp" alt="CAN アナライザー：すべてのフレームを識別"><br><sub>CAN アナライザー：すべてのフレームを識別</sub></td><td width="50%" align="center"><img src="docs/images/ja/canopen.webp" alt="その他の機器：CANopen CiA 402 ドライブ"><br><sub>その他の機器：CANopen CiA 402 ドライブ</sub></td></tr>
+<tr><td width="50%" align="center"><img src="docs/images/ja/mise_en_route.webp" alt="VESC 互換コントローラーのセットアップウィザード"><br><sub>VESC 互換コントローラーのセットアップウィザード</sub></td><td width="50%" align="center"><img src="docs/images/ja/rapport.webp" alt="PDF の試運転報告書"><br><sub>PDF の試運転報告書</sub></td></tr>
+<tr><td width="50%" align="center"><img src="docs/images/ja/dashboard.webp" alt="Dunen のダッシュボード"><br><sub>Dunen のダッシュボード</sub></td><td width="50%" align="center"><img src="docs/images/ja/settings.webp" alt="Dunen の設定（機械の単位で表示）"><br><sub>Dunen の設定（機械の単位で表示）</sub></td></tr>
 </table>
 
-## 無料の体験モードか完全版か
+## 読み取りは無料、調整には完全版
 
 | 機能 | 体験版（無料） | 完全版 |
 | --- | :---: | :---: |
-| 接続、全パラメーターの読み取り、ダッシュボード、グラフ | ✅ | ✅ |
-| 診断、故障履歴、出荷検査、エクスポート、サポートパッケージ | ✅ | ✅ |
-| すべての機能を開放したシミュレーションモード | ✅ | ✅ |
-| 自動アップデート | ✅ | ✅ |
-| 実際のコントローラーへの設定の書き込み | — | ✅ |
-| モーター試験、PI 調整、アクセル校正 | — | ✅ |
+| 接続、全設定の読み取り、ダッシュボード、グラフ | ✅ | ✅ |
+| 診断、故障ログとブラックボックス、オシロスコープ、CAN アナライザー | ✅ | ✅ |
+| すべて使えるシミュレーションモード、アップデート | ✅ | ✅ |
+| コントローラーへの設定の書き込み、セットアップウィザード | — | ✅ |
+| モーター試験、PI 調整、ペダルのキャリブレーション | — | ✅ |
 
-### 完全版
-
-**買い切りライセンス 50 €** · **年額サブスクリプション 20 €** · **四半期サブスクリプション 7 €**。1 つのキーで PC 1 台。右上の **ライセンス** ボタンから数秒で有効化できます。有効化後はインターネットなしで使用できます。
+**買い切りライセンス 50 €** · **年額サブスクリプション 20 €** · **四半期サブスクリプション 7 €**。1 つのキーで PC 1 台。**ライセンス** ボタンから数秒で有効化できます。有効化後はインターネットなしで使えます。
 
 **オンラインで購入：** [買い切り — 50 €](https://buy.polar.sh/polar_cl_qO94LG8UMUEZitzRuoHexlgbRA5yJC3UlaF5C1Fv4O9) · [年額 — 20 €/年](https://buy.polar.sh/polar_cl_St8xQg80RzRuOiugr63Lz4lFQkZ8MM2BkT6Jx1tNVVB) · [四半期 — 7 €/四半期](https://buy.polar.sh/polar_cl_vjvXcXdimxbXQ3JzsfKf5UKQlYK8jFWHVp7yw0nHOmJ)
 
-キーはメールで届きます。DunenScope の **ライセンス** → **有効にする** に貼り付けてください。
-
-<sub>サブスクリプションは 45 日に 1 回のオンライン確認で十分です。</sub>
+キーはメールで届きます：DunenScope → **ライセンス** → キーを貼り付け → **有効にする**。サブスクリプションは 45 日に 1 回オンラインで確認します。
 
 ## はじめに
 
 1. [Releases](https://github.com/simonlabrossedu71-tech/DunenScope/releases/latest) から **DunenScope_Setup** をダウンロードして実行します。「Windows によって PC が保護されました」と表示された場合は、*詳細情報* → *実行* をクリックします。
-2. 言語を選びます。PEAK ドライバーがない場合はインストーラーが案内します。
-3. CAN アダプターをコントローラーに接続し、キーを ON にします。
-4. **接続** をクリック：DunenScope がアダプター、通信速度、ノードを自動で見つけます。まだハードウェアがない場合は **シミュレーション** を選択。
-5. 完全版：**ライセンス** ボタン → キーを貼り付け → **有効にする**。
+2. アダプターを機器に接続し、電源を入れます。
+3. Dunen は自動で見つかります → **接続**。他のメーカーの場合：**その他の機器** ページでプロトコルを選択 → **接続**。
+4. まだハードウェアがない場合は **シミュレーション** を選びます：何も接続せずにすべてを確認できます。
 
-## 動作環境
+## 必要な機材
 
 - Windows 10 または 11、64 ビット。
-- CAN アダプター：PEAK PCAN-USB（推奨）、Kvaser、IXXAT、Vector、SLCAN（CANable…）。
-- DunenConfiger のプロトコル（CAN 上の Modbus、既定 250 kbit/s）を使う Dunen / ELYX コントローラー。
-
-## お使いのコントローラーはまだ対応していませんか？
-
-DunenScope は、CAN、CANopen、Modbus（RS-485 または TCP）、または仕様が公開されたシリアル通信でやり取りするあらゆるモーターコントローラーに対応できます。通信ファイルを送っていただければ、ソフトウェアに追加します。
-
-1. リクエストを作成：**[コントローラーを追加](https://github.com/simonlabrossedu71-tech/DunenScope/issues/new?template=nouveau-controleur.yml)**（無料の GitHub アカウントが必要）。
-2. お手元の資料を添付してください。多いほど早く対応できます：
-   - コントローラーの**マニュアル**、特に通信の章（PDF）；
-   - **通信仕様**：CANopen の EDS または XDD ファイル、Modbus レジスター表（アドレス、型、スケール、単位、読み取り/書き込み）、CAN の DBC ファイルまたはフレームの説明、シリアルプロトコル；
-   - **異常コードの一覧**とその意味；
-   - 可能であれば：メーカーのソフトウェアから書き出した設定と、モーター停止時・運転時・異常時の CAN キャプチャ（candump、PCAN-View のトレース）。
-3. リクエスト内で、お客様の言語で、通常 1 週間以内にお返事し、足りない資料をお尋ねします。対応が完成すると、DunenScope のアップデートで提供されます。
-
-<sub>GitHub のリクエストに添付したファイルは公開されます：秘密保持契約の対象となる資料は添付せず、リクエストでその旨をお知らせください。GitHub はすべての種類のファイルを受け付けるわけではありません：.eds、.xdd、.dbc などのファイルは .zip にまとめてください。</sub>
+- CAN アダプター：PEAK PCAN-USB（推奨）、Kvaser、IXXAT、Vector、CANable、candleLight。
+- 機器に応じて：VESC 互換コントローラーの USB ケーブル、USB-RS485 アダプター（Modbus、BMS、Pylontech）、または VE.Direct-USB ケーブル（Victron）。
 
 ## マニュアル
 
-完全なマニュアル（PDF）。スタートメニューにもインストールされます：
+完全なマニュアル（PDF）。ソフトウェアと一緒にインストールされます：
 
-- [English (PDF)](docs/manuals/DunenScope_Manual_EN.pdf) · [Français (PDF)](docs/manuals/DunenScope_Notice_FR.pdf) · [中文 (PDF)](docs/manuals/DunenScope_Manual_ZH.pdf)
+- [Français (PDF)](docs/manuals/DunenScope_Notice_FR.pdf) · [English (PDF)](docs/manuals/DunenScope_Manual_EN.pdf) · [中文 (PDF)](docs/manuals/DunenScope_Manual_ZH.pdf)
 
-## アップデートとセキュリティ
+## アップデートとデータ
 
 - すべてのインストーラーは署名されており、DunenScope はアップデートをインストールする前に署名を確認します。
-- 新しいバージョンは起動時にすべてのユーザーへ無料で案内されます。設定、プロファイル、バックアップは保持されます。
-- DunenScope が通信するのはライセンスサービスとダウンロードサーバーだけです。その他のデータが PC の外に出ることはありません。
+- 新しいバージョンは起動時に無料で案内されます。設定、プロファイル、バックアップは保持されます。
+- DunenScope が通信するのは、ライセンスサービス、アップデートサーバー、そして開いた場合のオンラインライブラリーだけです。ヘルプ ボタンからのメッセージとエラーレポートは、同意した場合にのみ送信されます。
 
-## ライセンスと安全上の注意
+## ライセンスと安全
 
-DunenScope をインストールすると、[エンドユーザー使用許諾契約](docs/licence/EULA_JA.txt)に同意したものとみなされます。DunenScope はコントローラーの設定を変更し、モーターを回転させることができます。機械を安全な状態にし、有資格者が作業してください。Dunen および ELYX は各所有者の商標です。
+DunenScope をインストールすると、[エンドユーザー使用許諾契約](docs/licence/EULA_JA.txt)に同意したものとみなされます。DunenScope はコントローラーの設定を変更し、モーターを回転させることができます。機械を安全な状態にし、有資格者が作業してください。ソフトウェアに同梱されたオープンソースコンポーネント（Qt、PySide6、python-can、libusb…）はそれぞれのライセンスに従います。一覧はインストールフォルダーの THIRD_PARTY_LICENSES.txt にあります。
+
+<sub>DunenScope は VESC プロジェクトとは提携しておらず、その承認も受けていません。CANopen® は CAN in Automation の登録商標です。Dunen、ELYX、Kelly、Curtis、Sevcon、Victron、Pylontech、その他記載のブランドは各所有者に帰属します。</sub>
+
+<sub>発行：ORDA Engineering SAS（フランス、サン＝テティエンヌ）。</sub>

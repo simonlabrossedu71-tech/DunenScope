@@ -10,6 +10,9 @@ est accordée selon la licence acquise (achat à vie ou abonnement), pour un seu
 2. Interdictions
 Il est interdit de copier le logiciel au-delà de la licence acquise, de partager une clé, de le louer, de le
 revendre, de le décompiler, de le désassembler, de le modifier ou de contourner ses mesures de protection.
+Cette interdiction ne s'applique pas aux composants libres livrés avec DunenScope et listés dans
+THIRD_PARTY_LICENSES.txt (Qt, PySide6, python-can, libusb…) : vous pouvez les remplacer par une version
+modifiée et faire la rétro-ingénierie nécessaire pour la mettre au point, selon leurs licences.
 
 3. Sécurité des machines
 DunenScope peut modifier les réglages d'un contrôleur moteur et faire tourner un moteur. L'utilisateur est
