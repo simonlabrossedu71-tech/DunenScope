@@ -50,6 +50,7 @@ Ihr Gerät fehlt? Senden Sie seine Kommunikationsunterlagen (Protokollhandbuch, 
 
 ## Was DunenScope kann
 
+- **Automatische Verbindung** — ein Klick auf Verbinden: Ein Dunen verbindet sich sofort; sonst hört DunenScope die CAN-Busse ab, ohne etwas zu senden, sowie die seriellen Ports, und verbindet sich mit dem gefundenen Gerät oder zeigt die Liste.
 - **Geführte Inbetriebnahme** — eine neue Maschine Schritt für Schritt: Batterie, Motor, Grenzwerte, Sicherheit, Drehrichtung; jede Einstellung mit aktuellem Wert, Grenzen und praktischem Gegenwert.
 - **Diagnose, die erklärt** — jeder Fehler jeder Marke mit wahrscheinlicher Ursache und Prüfhinweisen; die Blackbox speichert die 20 Sekunden vor jedem Fehler; mehrere Controller am selben Bus gemeinsam überwacht.
 - **Oszilloskop** — vier Kanäle, Trigger auf Schwelle oder beim Auftreten eines Fehlers, Vorlauf vor dem Trigger, Cursor, CSV-Export.
@@ -90,7 +91,7 @@ Der Schlüssel kommt per E-Mail: DunenScope → **Lizenz** → Schlüssel einfü
 
 1. Laden Sie **DunenScope_Setup** unter [Releases](https://github.com/simonlabrossedu71-tech/DunenScope/releases/latest) herunter und starten Sie es. Zeigt Windows „Der Computer wurde durch Windows geschützt“, klicken Sie auf *Weitere Informationen* → *Trotzdem ausführen*.
 2. Schließen Sie den Adapter an das Gerät an und schalten Sie es ein.
-3. Ein Dunen wird automatisch gefunden → **Verbinden**. Für eine andere Marke: Seite **Anderes Gerät**, Protokoll wählen → **Verbinden**.
+3. **Controller: auto** lassen und auf **Verbinden** klicken: DunenScope findet, was angeschlossen ist, und verbindet sich damit. Das Protokoll lässt sich auch auf der Seite **Anderes Gerät** wählen.
 4. Noch keine Hardware? Wählen Sie **Simulation**: Alles wird gezeigt, ohne etwas anzuschließen.
 
 ## Benötigte Hardware

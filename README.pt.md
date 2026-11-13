@@ -50,6 +50,7 @@ Seu equipamento não está na lista? Envie os arquivos de comunicação dele (ma
 
 ## O que o DunenScope faz
 
+- **Conexão automática** — um clique em Conectar: um Dunen conecta na hora; senão o DunenScope escuta os barramentos CAN sem emitir nada e as portas seriais, e se conecta ao equipamento encontrado ou mostra a lista.
 - **Comissionamento guiado** — uma máquina nova, passo a passo: bateria, motor, limites, segurança, sentido de rotação; cada ajuste com seu valor atual, seus limites e seu equivalente prático.
 - **Um diagnóstico que explica** — cada falha, de cada marca, com a causa provável e o que verificar; a caixa-preta guarda os 20 segundos antes de cada falha; vários controladores do mesmo barramento monitorados juntos.
 - **Osciloscópio** — quatro canais, disparo por limiar ou quando surge uma falha, pré-disparo mantido, cursores, exportação CSV.
@@ -90,7 +91,7 @@ A chave chega por e-mail: DunenScope → **Licença** → cole a chave → **Ati
 
 1. Baixe o **DunenScope_Setup** em [Releases](https://github.com/simonlabrossedu71-tech/DunenScope/releases/latest) e execute-o. Se o Windows mostrar «O Windows protegeu o computador», clique em *Mais informações* → *Executar assim mesmo*.
 2. Conecte o adaptador ao equipamento e ligue-o.
-3. Um Dunen é encontrado automaticamente → **Conectar**. Para outra marca: página **Outro dispositivo**, escolha o protocolo → **Conectar**.
+3. Deixe **Controlador: auto** e clique em **Conectar**: o DunenScope encontra o que está ligado e se conecta. Você também pode escolher o protocolo na página **Outro dispositivo**.
 4. Ainda sem hardware? Escolha **Simulação**: tudo é mostrado sem conectar nada.
 
 ## Equipamento necessário

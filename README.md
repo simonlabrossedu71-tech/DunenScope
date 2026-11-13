@@ -50,6 +50,7 @@ Your device isn't listed? Send its communication files (protocol manual, EDS, re
 
 ## What DunenScope does
 
+- **Automatic connection** — one click on Connect: a Dunen connects at once; otherwise DunenScope listens to the CAN buses without sending anything and to the serial ports, then connects to the device found or shows the list.
 - **Guided setup** — a new machine, step by step: battery, motor, limits, safety, direction of rotation; each setting with its current value, its limits and its useful equivalent.
 - **Diagnostics that explain** — every fault, from every brand, with its likely cause and what to check; the black box keeps the 20 seconds before each fault; several controllers on the same bus watched together.
 - **Scope** — four channels, triggered on a threshold or when a fault appears, pre-trigger kept, cursors, CSV export.
@@ -90,7 +91,7 @@ Your key arrives by e-mail: DunenScope → **Licence** → paste the key → **A
 
 1. Download **DunenScope_Setup** from [Releases](https://github.com/simonlabrossedu71-tech/DunenScope/releases/latest) and run it. If Windows shows "Windows protected your PC", click *More info* → *Run anyway*.
 2. Plug the adapter into the device and power it up.
-3. A Dunen is found automatically → **Connect**. For another brand: **Other device** page, choose the protocol → **Connect**.
+3. Leave **Controller: auto** and click **Connect**: DunenScope finds what is plugged in and connects to it. You can also choose the protocol on the **Other device** page.
 4. No hardware yet? Choose **Simulation**: everything shows without plugging anything in.
 
 ## What you need

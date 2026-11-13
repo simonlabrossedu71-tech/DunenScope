@@ -50,6 +50,7 @@ Elija el equipo en la página **Otro dispositivo** (o deje que DunenScope recono
 
 ## Qué hace DunenScope
 
+- **Conexión automática** — un clic en Conectar: un Dunen se conecta al instante; si no, DunenScope escucha los buses CAN sin emitir nada y los puertos serie, y se conecta al equipo encontrado o muestra la lista.
 - **Puesta en marcha guiada** — una máquina nueva, paso a paso: batería, motor, límites, seguridad, sentido de giro; cada ajuste con su valor actual, sus límites y su equivalente práctico.
 - **Un diagnóstico que explica** — cada fallo, de cada marca, con su causa probable y qué comprobar; la caja negra guarda los 20 segundos anteriores a cada fallo; varios controladores del mismo bus vigilados a la vez.
 - **Osciloscopio** — cuatro canales, disparo por umbral o al aparecer un fallo, se conserva lo anterior al disparo, cursores, exportación CSV.
@@ -90,7 +91,7 @@ La clave llega por correo: DunenScope → **Licencia** → pegue la clave → **
 
 1. Descargue **DunenScope_Setup** en [Releases](https://github.com/simonlabrossedu71-tech/DunenScope/releases/latest) y ejecútelo. Si Windows muestra «Windows protegió su PC», haga clic en *Más información* → *Ejecutar de todas formas*.
 2. Conecte el adaptador al equipo y enciéndalo.
-3. Un Dunen se detecta solo → **Conectar**. Para otra marca: página **Otro dispositivo**, elija el protocolo → **Conectar**.
+3. Deje **Controlador: auto** y haga clic en **Conectar**: DunenScope encuentra lo que está conectado y se conecta. También puede elegir el protocolo en la página **Otro dispositivo**.
 4. ¿Aún sin hardware? Elija **Simulación**: todo se muestra sin conectar nada.
 
 ## Material necesario

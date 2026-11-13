@@ -50,6 +50,7 @@ Votre appareil n'y est pas ? Envoyez ses fichiers de communication (manuel du pr
 
 ## Ce que fait DunenScope
 
+- **Connexion automatique** — un clic sur Connecter : un Dunen se connecte aussitôt ; sinon DunenScope écoute les bus CAN sans rien émettre et les ports série, puis se connecte à l'appareil trouvé ou montre la liste.
 - **Mise en route guidée** — une machine neuve, étape par étape : batterie, moteur, limites, sécurité, sens de rotation ; chaque réglage avec sa valeur actuelle, ses bornes et son équivalent utile.
 - **Un diagnostic qui explique** — chaque défaut, de chaque marque, avec sa cause probable et ce qu'il faut vérifier ; la boîte noire garde les 20 secondes avant chaque défaut ; plusieurs contrôleurs du même bus surveillés ensemble.
 - **Oscilloscope** — quatre voies, déclenchement sur un seuil ou sur l'apparition d'un défaut, part gardée avant le déclenchement, curseurs, export CSV.
@@ -90,7 +91,7 @@ La clé arrive par e-mail : DunenScope → **Licence** → collez la clé → **
 
 1. Téléchargez **DunenScope_Setup** dans [Releases](https://github.com/simonlabrossedu71-tech/DunenScope/releases/latest) et lancez-le. Si Windows affiche « Windows a protégé votre ordinateur », cliquez sur *Informations complémentaires* → *Exécuter quand même*.
 2. Branchez l'adaptateur sur l'appareil et mettez-le sous tension.
-3. Un Dunen est trouvé tout seul → **Connecter**. Pour une autre marque : page **Autre appareil**, choisissez le protocole → **Connecter**.
+3. Laissez **Contrôleur : auto** et cliquez sur **Connecter** : DunenScope trouve ce qui est branché et s'y connecte. Vous pouvez aussi choisir le protocole dans la page **Autre appareil**.
 4. Pas encore de matériel ? Choisissez **Simulation** : tout se montre sans rien brancher.
 
 ## Matériel nécessaire
