@@ -10,7 +10,7 @@
 DunenScope fait d'un PC Windows et d'un adaptateur CAN, USB ou RS-485 un banc de diagnostic et de réglage : contrôleurs Dunen, contrôleurs compatibles avec VESC® Software, variateurs CANopen® et Modbus, Kelly, Curtis, Sevcon, BMS et chargeurs. Il explique chaque défaut, garde ce qui s'est passé juste avant, règle la machine pas à pas et sort le rapport de mise en service.
 
 > [!TIP]
-> **Un bug ? Un appareil qui manque ?** Déposez vos fichiers ici : chaque demande est lue et prise en charge automatiquement dans l'heure, avec une réponse sur la demande, des questions s'il manque une information, puis la correction ou l'appareil dans une prochaine mise à jour.
+> **Un bug ? Un appareil qui manque ?** Déposez vos fichiers ici : chaque demande est lue et prise en charge automatiquement dans la journée, avec une réponse sur la demande, des questions s'il manque une information, puis la correction ou l'appareil dans une prochaine mise à jour.
 >
 > **[Signaler un bug](https://github.com/simonlabrossedu71-tech/DunenScope/issues/new?template=signaler-bug.yml)** · **[Ajouter mon appareil](https://github.com/simonlabrossedu71-tech/DunenScope/issues/new?template=nouveau-controleur.yml)**
 

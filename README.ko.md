@@ -10,7 +10,7 @@
 DunenScope는 Windows PC와 CAN, USB 또는 RS-485 어댑터를 진단·설정 벤치로 바꿔 줍니다. Dunen 컨트롤러, VESC® Software 호환 컨트롤러, CANopen® 및 Modbus 드라이브, Kelly, Curtis, Sevcon, BMS, 충전기를 지원합니다. 모든 고장을 설명하고, 고장 직전의 상황을 기록하며, 기계를 단계별로 설정하고 시운전 보고서를 만들어 줍니다.
 
 > [!TIP]
-> **버그가 있나요? 장치가 빠져 있나요?** 여기에 파일을 올려 주세요. 모든 요청은 1시간 안에 자동으로 확인되어 처리가 시작됩니다. 요청에 대한 답변, 정보가 부족할 때의 질문, 그리고 다음 업데이트에서의 수정이나 장치 추가까지 이어집니다.
+> **버그가 있나요? 장치가 빠져 있나요?** 여기에 파일을 올려 주세요. 모든 요청은 당일 안에 자동으로 확인되어 처리가 시작됩니다. 요청에 대한 답변, 정보가 부족할 때의 질문, 그리고 다음 업데이트에서의 수정이나 장치 추가까지 이어집니다.
 >
 > **[버그 신고](https://github.com/simonlabrossedu71-tech/DunenScope/issues/new?template=signaler-bug.yml)** · **[내 장치 추가](https://github.com/simonlabrossedu71-tech/DunenScope/issues/new?template=nouveau-controleur.yml)**
 

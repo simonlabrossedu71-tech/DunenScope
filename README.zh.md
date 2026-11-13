@@ -10,7 +10,7 @@
 DunenScope 将一台 Windows 电脑和一个 CAN、USB 或 RS-485 适配器变成诊断与调试台：Dunen 控制器、兼容 VESC® Software 的控制器、CANopen® 和 Modbus 驱动器、Kelly、Curtis、Sevcon、BMS 和充电器。它解释每一个故障，保留故障发生前的情况，逐步完成整机设置，并生成调试报告。
 
 > [!TIP]
-> **发现错误？缺少设备？** 请在这里提交您的文件：每个请求都会在一小时内被自动读取和处理——在请求下给出回复，缺少信息时会提问，随后在后续更新中提供修复或加入该设备。
+> **发现错误？缺少设备？** 请在这里提交您的文件：每个请求都会在当天被自动读取和处理——在请求下给出回复，缺少信息时会提问，随后在后续更新中提供修复或加入该设备。
 >
 > **[报告错误](https://github.com/simonlabrossedu71-tech/DunenScope/issues/new?template=signaler-bug.yml)** · **[添加我的设备](https://github.com/simonlabrossedu71-tech/DunenScope/issues/new?template=nouveau-controleur.yml)**
 

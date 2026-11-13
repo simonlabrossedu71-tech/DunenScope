@@ -1,13 +1,13 @@
 name: "Signaler un bug · Report a bug"
-description: "Quelque chose ne marche pas dans DunenScope : décrivez-le et joignez vos fichiers, c'est pris en charge dans l'heure. · Something doesn't work in DunenScope: describe it and attach your files, it is picked up within the hour."
+description: "Quelque chose ne marche pas dans DunenScope : décrivez-le et joignez vos fichiers, c'est pris en charge dans la journée. · Something doesn't work in DunenScope: describe it and attach your files, it is picked up within the day."
 title: "[Bug] "
 labels: ["bug"]
 body:
   - type: markdown
     attributes:
       value: |
-        **FR** — Chaque demande est lue et prise en charge automatiquement dans l'heure : réponse ici, questions s'il manque une information, puis correction dans une prochaine mise à jour. Écrivez dans la langue de votre choix.
-        **EN** — Every request is read and picked up automatically within the hour: an answer here, questions if something is missing, then a fix in an upcoming update. Write in any language.
+        **FR** — Chaque demande est lue et prise en charge automatiquement dans la journée : réponse ici, questions s'il manque une information, puis correction dans une prochaine mise à jour. Écrivez dans la langue de votre choix.
+        **EN** — Every request is read and picked up automatically within the day: an answer here, questions if something is missing, then a fix in an upcoming update. Write in any language.
 
         Le plus utile : le **dossier support** (DunenScope → **Outils** → **Créer un dossier support…**), un fichier .zip à glisser ci-dessous (il contient les réglages et le numéro de série du contrôleur).
         Most useful: the **support package** (DunenScope → **Tools** → **Create support package…**), a .zip file to drop below (it contains the controller's settings and serial number).
