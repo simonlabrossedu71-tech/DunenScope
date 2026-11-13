@@ -9,6 +9,11 @@
 
 DunenScope turns a Windows PC and a CAN, USB or RS-485 adapter into a diagnostics and tuning bench: Dunen controllers, controllers compatible with VESC® Software, CANopen® and Modbus drives, Kelly, Curtis, Sevcon, BMS and chargers. It explains every fault, keeps what happened just before, sets the machine up step by step and produces the commissioning report.
 
+> [!TIP]
+> **A bug? A missing device?** Drop your files here: every request is read and picked up automatically within the hour, with an answer on the request, questions if something is missing, then the fix or the device in an upcoming update.
+>
+> **[Report a bug](https://github.com/simonlabrossedu71-tech/DunenScope/issues/new?template=signaler-bug.yml)** · **[Add my device](https://github.com/simonlabrossedu71-tech/DunenScope/issues/new?template=nouveau-controleur.yml)**
+
 ## The video (46 s)
 
 <p align="center"><img src="docs/video/apercu_en.webp" alt="The video (46 s)" width="720"><br><a href="https://github.com/simonlabrossedu71-tech/DunenScope/raw/main/docs/video/DunenScope_presentation_en.mp4">Download the full video, with sound (MP4, 16 MB)</a></p>

@@ -9,6 +9,11 @@
 
 DunenScope macht aus einem Windows-PC und einem CAN-, USB- oder RS-485-Adapter einen Diagnose- und Einstellplatz: Dunen-Controller, mit VESC® Software kompatible Controller, CANopen®- und Modbus-Antriebe, Kelly, Curtis, Sevcon, BMS und Ladegeräte. Es erklärt jeden Fehler, speichert, was kurz davor geschah, richtet die Maschine Schritt für Schritt ein und erstellt das Inbetriebnahmeprotokoll.
 
+> [!TIP]
+> **Ein Fehler? Ein Gerät fehlt?** Legen Sie Ihre Dateien hier ab: Jede Anfrage wird innerhalb einer Stunde automatisch gelesen und bearbeitet – mit einer Antwort in der Anfrage, Rückfragen, falls etwas fehlt, und danach der Korrektur oder dem Gerät in einem kommenden Update.
+>
+> **[Fehler melden](https://github.com/simonlabrossedu71-tech/DunenScope/issues/new?template=signaler-bug.yml)** · **[Mein Gerät hinzufügen](https://github.com/simonlabrossedu71-tech/DunenScope/issues/new?template=nouveau-controleur.yml)**
+
 ## Das Video (46 s)
 
 <p align="center"><img src="docs/video/apercu_en.webp" alt="Das Video (46 s)" width="720"><br><a href="https://github.com/simonlabrossedu71-tech/DunenScope/raw/main/docs/video/DunenScope_presentation_en.mp4">Ganzes Video mit Ton herunterladen (MP4, 16 MB)</a></p>

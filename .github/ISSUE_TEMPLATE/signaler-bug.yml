@@ -1,0 +1,61 @@
+name: "Signaler un bug · Report a bug"
+description: "Quelque chose ne marche pas dans DunenScope : décrivez-le et joignez vos fichiers, c'est pris en charge dans l'heure. · Something doesn't work in DunenScope: describe it and attach your files, it is picked up within the hour."
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **FR** — Chaque demande est lue et prise en charge automatiquement dans l'heure : réponse ici, questions s'il manque une information, puis correction dans une prochaine mise à jour. Écrivez dans la langue de votre choix.
+        **EN** — Every request is read and picked up automatically within the hour: an answer here, questions if something is missing, then a fix in an upcoming update. Write in any language.
+
+        Le plus utile : le **dossier support** (DunenScope → **Outils** → **Créer un dossier support…**), un fichier .zip à glisser ci-dessous (il contient les réglages et le numéro de série du contrôleur).
+        Most useful: the **support package** (DunenScope → **Tools** → **Create support package…**), a .zip file to drop below (it contains the controller's settings and serial number).
+
+        ⚠️ Les fichiers joints sont **publics** : aucun document confidentiel. · Attachments are **public**: no confidential document.
+  - type: textarea
+    id: probleme
+    attributes:
+      label: "Ce qui se passe · What happens"
+      description: "Le message affiché, ce que vous faisiez juste avant. · The message shown, what you were doing just before."
+    validations:
+      required: true
+  - type: textarea
+    id: attendu
+    attributes:
+      label: "Ce que vous attendiez · What you expected"
+  - type: textarea
+    id: etapes
+    attributes:
+      label: "Pour le reproduire (si vous savez) · How to reproduce it (if you know)"
+      placeholder: "1. … 2. … 3. …"
+  - type: input
+    id: version
+    attributes:
+      label: "Version de DunenScope · DunenScope version"
+      description: "Bouton Aide ou titre de la fenêtre. · Help button or window title."
+      placeholder: "ex. 0.8.0"
+    validations:
+      required: true
+  - type: input
+    id: appareil
+    attributes:
+      label: "Appareil et protocole · Device and protocol"
+      placeholder: "ex. Dunen, VESC par USB, CANopen Curtis 1236E, Simulation…"
+  - type: input
+    id: adaptateur
+    attributes:
+      label: "Adaptateur et Windows · Adapter and Windows"
+      placeholder: "ex. PEAK PCAN-USB, Windows 11"
+  - type: textarea
+    id: fichiers
+    attributes:
+      label: "Fichiers (dossier support .zip, captures d'écran…) · Files (support package .zip, screenshots…)"
+      placeholder: "Glissez vos fichiers ici · Drop your files here"
+  - type: checkboxes
+    id: public
+    attributes:
+      label: "Confirmation"
+      options:
+        - label: "Les fichiers joints sont publics : je n'envoie aucun document confidentiel. · Attachments are public: I am not sending any confidential document."
+          required: true

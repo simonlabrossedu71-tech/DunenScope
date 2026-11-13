@@ -6,8 +6,8 @@ body:
   - type: markdown
     attributes:
       value: |
-        **FR** — Remplissez ce que vous savez, joignez vos fichiers dans les cases ci-dessous (glisser-déposer). Nous répondons ici, dans votre langue, en général sous une semaine. Écrivez dans la langue de votre choix.
-        **EN** — Fill in what you know and drop your files in the boxes below. We answer here, in your language, usually within a week. Write in any language.
+        **FR** — Remplissez ce que vous savez, joignez vos fichiers dans les cases ci-dessous (glisser-déposer). Chaque demande est lue et prise en charge automatiquement dans l'heure : réponse ici, dans votre langue, questions s'il manque une information, puis l'appareil arrive dans une prochaine mise à jour. Écrivez dans la langue de votre choix.
+        **EN** — Fill in what you know and drop your files in the boxes below. Every request is read and picked up automatically within the hour: an answer here, in your language, questions if something is missing, then the device comes in an upcoming update. Write in any language.
 
         ⚠️ Les fichiers joints sont **publics** : aucun document sous accord de confidentialité. Mettez les fichiers .eds, .xdd, .dbc… dans un **.zip** (GitHub ne les accepte pas tels quels).
         ⚠️ Attachments are **public**: no document under a confidentiality agreement. Put .eds, .xdd, .dbc… files in a **.zip** (GitHub does not accept them as they are).
