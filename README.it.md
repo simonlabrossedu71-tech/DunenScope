@@ -11,7 +11,7 @@ DunenScope trasforma un PC Windows e un adattatore CAN, USB o RS-485 in un banco
 
 ## Il video (46 s)
 
-<p align="center"><a href="docs/video/DunenScope_presentation_en.mp4"><img src="docs/video/apercu_en.webp" alt="Il video (46 s)" width="720"></a><br><a href="docs/video/DunenScope_presentation_en.mp4">Guarda il video completo, con audio (MP4)</a></p>
+<p align="center"><img src="docs/video/apercu_en.webp" alt="Il video (46 s)" width="720"><br><a href="https://github.com/simonlabrossedu71-tech/DunenScope/raw/main/docs/video/DunenScope_presentation_en.mp4">Scarica il video completo, con audio (MP4, 16 MB)</a></p>
 
 ## Cosa sa leggere e regolare
 

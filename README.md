@@ -11,7 +11,7 @@ DunenScope turns a Windows PC and a CAN, USB or RS-485 adapter into a diagnostic
 
 ## The video (46 s)
 
-<p align="center"><a href="docs/video/DunenScope_presentation_en.mp4"><img src="docs/video/apercu_en.webp" alt="The video (46 s)" width="720"></a><br><a href="docs/video/DunenScope_presentation_en.mp4">Watch the full video, with sound (MP4)</a></p>
+<p align="center"><img src="docs/video/apercu_en.webp" alt="The video (46 s)" width="720"><br><a href="https://github.com/simonlabrossedu71-tech/DunenScope/raw/main/docs/video/DunenScope_presentation_en.mp4">Download the full video, with sound (MP4, 16 MB)</a></p>
 
 ## What it can read and tune
 

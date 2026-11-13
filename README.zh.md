@@ -11,7 +11,7 @@ DunenScope 将一台 Windows 电脑和一个 CAN、USB 或 RS-485 适配器变�
 
 ## 视频（46 秒）
 
-<p align="center"><a href="docs/video/DunenScope_presentation_en.mp4"><img src="docs/video/apercu_en.webp" alt="视频（46 秒）" width="720"></a><br><a href="docs/video/DunenScope_presentation_en.mp4">观看带声音的完整视频（MP4）</a></p>
+<p align="center"><img src="docs/video/apercu_en.webp" alt="视频（46 秒）" width="720"><br><a href="https://github.com/simonlabrossedu71-tech/DunenScope/raw/main/docs/video/DunenScope_presentation_en.mp4">下载带声音的完整视频（MP4，16 MB）</a></p>
 
 ## 可读取和调试的设备
 

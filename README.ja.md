@@ -11,7 +11,7 @@ DunenScope は、Windows PC と CAN・USB・RS-485 アダプターを診断・�
 
 ## 動画（46 秒）
 
-<p align="center"><a href="docs/video/DunenScope_presentation_en.mp4"><img src="docs/video/apercu_en.webp" alt="動画（46 秒）" width="720"></a><br><a href="docs/video/DunenScope_presentation_en.mp4">音声付きの完全版動画を見る（MP4）</a></p>
+<p align="center"><img src="docs/video/apercu_en.webp" alt="動画（46 秒）" width="720"><br><a href="https://github.com/simonlabrossedu71-tech/DunenScope/raw/main/docs/video/DunenScope_presentation_en.mp4">音声付きの完全版動画をダウンロード（MP4、16 MB）</a></p>
 
 ## 読み取り・調整できる機器
 

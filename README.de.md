@@ -11,7 +11,7 @@ DunenScope macht aus einem Windows-PC und einem CAN-, USB- oder RS-485-Adapter e
 
 ## Das Video (46 s)
 
-<p align="center"><a href="docs/video/DunenScope_presentation_en.mp4"><img src="docs/video/apercu_en.webp" alt="Das Video (46 s)" width="720"></a><br><a href="docs/video/DunenScope_presentation_en.mp4">Ganzes Video mit Ton ansehen (MP4)</a></p>
+<p align="center"><img src="docs/video/apercu_en.webp" alt="Das Video (46 s)" width="720"><br><a href="https://github.com/simonlabrossedu71-tech/DunenScope/raw/main/docs/video/DunenScope_presentation_en.mp4">Ganzes Video mit Ton herunterladen (MP4, 16 MB)</a></p>
 
 ## Was es lesen und einstellen kann
 

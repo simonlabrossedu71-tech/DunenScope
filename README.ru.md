@@ -11,7 +11,7 @@ DunenScope превращает ПК с Windows и адаптер CAN, USB ил�
 
 ## Видео (46 с)
 
-<p align="center"><a href="docs/video/DunenScope_presentation_en.mp4"><img src="docs/video/apercu_en.webp" alt="Видео (46 с)" width="720"></a><br><a href="docs/video/DunenScope_presentation_en.mp4">Смотреть полное видео со звуком (MP4)</a></p>
+<p align="center"><img src="docs/video/apercu_en.webp" alt="Видео (46 с)" width="720"><br><a href="https://github.com/simonlabrossedu71-tech/DunenScope/raw/main/docs/video/DunenScope_presentation_en.mp4">Скачать полное видео со звуком (MP4, 16 МБ)</a></p>
 
 ## Что он умеет читать и настраивать
 

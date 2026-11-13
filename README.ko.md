@@ -11,7 +11,7 @@ DunenScope는 Windows PC와 CAN, USB 또는 RS-485 어댑터를 진단·설정 �
 
 ## 동영상(46초)
 
-<p align="center"><a href="docs/video/DunenScope_presentation_en.mp4"><img src="docs/video/apercu_en.webp" alt="동영상(46초)" width="720"></a><br><a href="docs/video/DunenScope_presentation_en.mp4">소리가 포함된 전체 동영상 보기(MP4)</a></p>
+<p align="center"><img src="docs/video/apercu_en.webp" alt="동영상(46초)" width="720"><br><a href="https://github.com/simonlabrossedu71-tech/DunenScope/raw/main/docs/video/DunenScope_presentation_en.mp4">소리가 포함된 전체 동영상 다운로드(MP4, 16 MB)</a></p>
 
 ## 읽고 설정할 수 있는 장치
 
